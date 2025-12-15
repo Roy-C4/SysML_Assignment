@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 38412058-29c3-43c2-a6ea-784c944caa88</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">NonFunctionalPKG</_name>
+			<_modifiedTimeWeak type="a">12.14.2025::23:52:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2025::23:52:17</_modifiedTime>
+			<_lastID type="a">7</_lastID>
+			<weakCGTime type="a">12.14.2025::23:52:17</weakCGTime>
+			<strongCGTime type="a">12.12.2025::11:12:48</strongCGTime>
+			<_defaultComposite type="s">GUID 9d05ae13-cf29-444a-b2db-7158e3c0fa2d</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 622a12f1-fb0b-4468-bb74-81ba8916a62d</value>
+				<value>GUID d3be0b3f-7e23-4950-9261-756ff8ecee59</value>
+				<value>GUID ff9f341a-1c4e-43fa-abeb-1ffdeef2acdf</value>
+				<value>GUID 4717c2e5-7197-44cb-977c-add9c9c33664</value>
+				<value>GUID 9d5c7875-1337-439a-a978-dec0a23ce309</value>
+				<value>GUID 34b2265a-6abd-45a9-87f6-8f75a89cf612</value>
+				<value>GUID 29f74d4f-c484-4dc6-a549-2a73fedd2893</value>
+				<value>GUID 9d05ae13-cf29-444a-b2db-7158e3c0fa2d</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IRequirement type="e">
+			<_id type="a">GUID 622a12f1-fb0b-4468-bb74-81ba8916a62d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Pipeline Reliability</_name>
+			<_modifiedTimeWeak type="a">12.14.2025::22:57:38</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2025::22:57:38</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The SMSTWD shall have reliable pipelines consistently feeding into the aggregation module. \par%0D
+}%0D
+</_body>
+			<reqID type="a">100</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID d3be0b3f-7e23-4950-9261-756ff8ecee59</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Explainable Algorithms</_name>
+			<_modifiedTimeWeak type="a">12.14.2025::22:58:8</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2025::22:58:8</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The SMSTWD shall use explainable algorithms for better interpretability.\par%0D
+}%0D
+</_body>
+			<reqID type="a">200</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID ff9f341a-1c4e-43fa-abeb-1ffdeef2acdf</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Accesible Inferences</_name>
+			<_modifiedTimeWeak type="a">12.14.2025::22:58:43</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2025::22:58:43</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The SMSTWD shall present inferences regarding tsunamis and storm parameters in an accessible way to the end user. \par%0D
+}%0D
+</_body>
+			<reqID type="a">300</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 4717c2e5-7197-44cb-977c-add9c9c33664</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Reduce Warning Time</_name>
+			<_modifiedTimeWeak type="a">12.14.2025::23:0:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2025::23:0:17</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The SMSTWD shall reduce warning times, reducing casualties. \par%0D
+}%0D
+</_body>
+			<reqID type="a">500</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 9d5c7875-1337-439a-a978-dec0a23ce309</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Region Accesibility</_name>
+			<_modifiedTimeWeak type="a">12.14.2025::23:0:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2025::23:0:7</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The SMSTWD shall be accessible to all regions. \par%0D
+}%0D
+</_body>
+			<reqID type="a">400</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 34b2265a-6abd-45a9-87f6-8f75a89cf612</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Non-Mechanical Substitution</_name>
+			<_modifiedTimeWeak type="a">12.14.2025::23:49:43</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2025::23:49:43</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The SMSTWD shall utilize solid-state sensing technologies (such as ultrasonic flow detectors or optical strain sensors) instead of mechanical moving parts for water flow and seismic detection to reduce latency and mechanical wear.\par%0D
+}%0D
+</_body>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 29f74d4f-c484-4dc6-a549-2a73fedd2893</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Localized Quality Configuration</_name>
+			<_modifiedTimeWeak type="a">12.14.2025::23:52:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2025::23:52:17</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The SMSTWD sensor nodes shall be configured with non-uniform sampling rates and power profiles specific to their local physical environment (e.g., deep-sea nodes have different sleep cycles than surface buoys).\par%0D
+}%0D
+</_body>
+		</IRequirement>
+		<IClass type="e">
+			<_id type="a">GUID 9d05ae13-cf29-444a-b2db-7158e3c0fa2d</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

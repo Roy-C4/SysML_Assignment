@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 8e043849-4ebb-49fd-90b1-e9cc72a80174</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SafetyPKG</_name>
+			<_modifiedTimeWeak type="a">12.14.2025::23:55:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2025::23:55:3</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<weakCGTime type="a">12.14.2025::23:55:3</weakCGTime>
+			<strongCGTime type="a">12.12.2025::11:14:22</strongCGTime>
+			<_defaultComposite type="s">GUID 834f2257-bc6c-4778-b7bf-92e588f984b8</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 7f243d44-9e5c-4e14-b039-564f97120fe4</value>
+				<value>GUID 58e49084-8069-4a2b-a4bf-f9c8b5eadde2</value>
+				<value>GUID 834f2257-bc6c-4778-b7bf-92e588f984b8</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IRequirement type="e">
+			<_id type="a">GUID 7f243d44-9e5c-4e14-b039-564f97120fe4</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Multi-Modal Alert Verification</_name>
+			<_modifiedTimeWeak type="a">12.14.2025::23:54:36</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2025::23:54:36</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The SMSTWD shall validate high-level tsunami alerts using data from at least two different sensor modalities (e.g., Seismic + Water Pressure) before issuing a public warning.\par%0D
+}%0D
+</_body>
+			<reqID type="a">150</reqID>
+		</IRequirement>
+		<IRequirement type="e">
+			<_id type="a">GUID 58e49084-8069-4a2b-a4bf-f9c8b5eadde2</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Environmental Ecosystem Protection</_name>
+			<_modifiedTimeWeak type="a">12.14.2025::23:55:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2025::23:55:3</_modifiedTime>
+			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\fs20 The SMSTWD underwater components shall be constructed using non-toxic, non-corrosive materials to prevent chemical leakage into the marine ecosystem.\par%0D
+}%0D
+</_body>
+			<reqID type="a">250</reqID>
+		</IRequirement>
+		<IClass type="e">
+			<_id type="a">GUID 834f2257-bc6c-4778-b7bf-92e588f984b8</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

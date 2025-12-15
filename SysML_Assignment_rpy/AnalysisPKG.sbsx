@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID f892dccd-cc5b-408e-b98f-709c15b5843e</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">AnalysisPKG</_name>
+			<_modifiedTimeWeak type="a">12.12.2025::11:13:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.12.2025::11:19:30</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<weakCGTime type="a">12.12.2025::11:13:53</weakCGTime>
+			<strongCGTime type="a">12.12.2025::11:11:34</strongCGTime>
+			<_defaultComposite type="s">GUID 41b0c0a3-96b3-42a2-86a8-59c07329e1dc</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">12.12.2025::11:13:53</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 64965f96-4db9-4b7d-a6a7-c606376f3aaf</value>
+				<value>GUID 41b0c0a3-96b3-42a2-86a8-59c07329e1dc</value>
+			</AggregatesList>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">RequirementsPKG</fileName>
+			<_id type="a">GUID 64965f96-4db9-4b7d-a6a7-c606376f3aaf</_id>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID 41b0c0a3-96b3-42a2-86a8-59c07329e1dc</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
