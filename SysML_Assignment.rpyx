@@ -24,9 +24,9 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">12.12.2025::11:11:37</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.12.2025::11:19:30</_modifiedTime>
-			<_lastID type="a">1</_lastID>
+			<_modifiedTimeWeak type="a">12.15.2025::17:58:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.15.2025::18:28:39</_modifiedTime>
+			<_lastID type="a">2</_lastID>
 			<_UserColors type="w">
 				<IRPYRawContainer type="e">
 					<value>16777215</value>
@@ -103,6 +103,7 @@
 				<value>GUID 5717d983-7bb5-4aba-bdc8-41bcb977f568</value>
 				<value>GUID bec2d8a0-3285-4efa-80fb-9daf3d590c8a</value>
 				<value>GUID 687cf386-67c4-4cb1-bb5f-e7c5e3dd3f37</value>
+				<value>GUID d44fff9b-f71d-428a-8191-b6d7ad475ba4</value>
 				<value>GUID b636a8ba-3795-45e1-83a5-407e31eebe88</value>
 			</AggregatesList>
 		</IProject>
@@ -154,6 +155,10 @@
 		<ISubsystem type="e">
 			<fileName type="a">Architecture</fileName>
 			<_id type="a">GUID 687cf386-67c4-4cb1-bb5f-e7c5e3dd3f37</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">SensingSystemPKG</fileName>
+			<_id type="a">GUID d44fff9b-f71d-428a-8191-b6d7ad475ba4</_id>
 		</ISubsystem>
 		<IComponent type="e">
 			<fileName type="a">DefaultComponent</fileName>

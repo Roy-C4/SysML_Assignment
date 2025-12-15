@@ -12,10 +12,10 @@
 			<_id type="a">GUID 8e043849-4ebb-49fd-90b1-e9cc72a80174</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SafetyPKG</_name>
-			<_modifiedTimeWeak type="a">12.15.2025::12:0:15</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.15.2025::12:0:15</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.15.2025::17:58:35</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.15.2025::17:58:35</_modifiedTime>
 			<_lastID type="a">4</_lastID>
-			<weakCGTime type="a">12.15.2025::12:0:15</weakCGTime>
+			<weakCGTime type="a">12.15.2025::17:58:35</weakCGTime>
 			<strongCGTime type="a">12.12.2025::11:14:22</strongCGTime>
 			<_defaultComposite type="s">GUID 834f2257-bc6c-4778-b7bf-92e588f984b8</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -214,6 +214,28 @@
 							</Metaclasses>
 						</IPropertySubject>
 						
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">SmartRouting</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
 					</IRPYRawContainer>
 				</Subjects>
 			</IPropertyContainer>
@@ -233,8 +255,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.15.2025::12:0:8</_modifiedTime>
-			<_lastModifiedTime type="a">12.15.2025::12:0:8</_lastModifiedTime>
+			<_modifiedTime type="a">12.15.2025::17:58:36</_modifiedTime>
+			<_lastModifiedTime type="a">12.15.2025::17:58:36</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -381,7 +403,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">4.22222 0 0 3.63636 15 20 </m_transform>
+			<m_transform type="a">2.63889 0 0 3.63636 20 20 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -431,7 +453,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.166974 0 0 0.0915751 393 368.725 </m_transform>
+			<m_transform type="a">0.166052 0 0 0.128205 223 272.615 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -504,7 +526,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.181734 0 0 0.173077 720 55.4808 </m_transform>
+			<m_transform type="a">0.180812 0 0 0.172161 365 39.4835 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -596,12 +618,12 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 819 257  484 257  </m_arrow>
+			<m_arrow type="a">2 463 250  358 250  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">545 1095 </m_SourcePort>
-			<m_TargetPort type="a">545 -8 </m_TargetPort>
+			<m_SourcePort type="a">542 1095 </m_SourcePort>
+			<m_TargetPort type="a">813 -5 </m_TargetPort>
 		</CGIContainArrow>
 		<CGIAnnotation type="e">
 			<_id type="a">GUID 9bad5f0b-2c92-4f22-9da5-175ab9ab6fe3</_id>
@@ -631,7 +653,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.22786 0 0 0.142857 75 88.5714 </m_transform>
+			<m_transform type="a">0.226937 0 0 0.141026 40 56.5769 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -723,12 +745,12 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">3 25 167  25 285  484 285  </m_arrow>
+			<m_arrow type="a">2 163 242  268 242  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">0 549 </m_SourcePort>
-			<m_TargetPort type="a">545 -8 </m_TargetPort>
+			<m_SourcePort type="a">542 1095 </m_SourcePort>
+			<m_TargetPort type="a">271 -5 </m_TargetPort>
 		</CGIContainArrow>
 		<IClass type="e">
 			<_id type="a">GUID 834f2257-bc6c-4778-b7bf-92e588f984b8</_id>
