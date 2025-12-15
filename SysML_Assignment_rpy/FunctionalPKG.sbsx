@@ -12,10 +12,10 @@
 			<_id type="a">GUID be82c512-e905-43cf-861c-998634fce3b5</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">FunctionalPKG</_name>
-			<_modifiedTimeWeak type="a">12.15.2025::0:16:27</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.15.2025::0:16:27</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.15.2025::11:53:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.15.2025::11:53:54</_modifiedTime>
 			<_lastID type="a">10</_lastID>
-			<weakCGTime type="a">12.15.2025::0:16:27</weakCGTime>
+			<weakCGTime type="a">12.15.2025::11:53:54</weakCGTime>
 			<strongCGTime type="a">12.12.2025::11:12:39</strongCGTime>
 			<_defaultComposite type="s">GUID ad6b7256-449b-4d8d-b3e9-29f925332f30</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -32,11 +32,11 @@
 			<_id type="a">GUID 5a3ba1bb-6898-4eb3-9650-7cd5505b8d44</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SMSTWD_TopReq_FR</_name>
-			<_modifiedTimeWeak type="a">12.15.2025::0:16:27</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.15.2025::0:16:27</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.15.2025::11:53:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.15.2025::11:53:54</_modifiedTime>
 			<_lastID type="a">12</_lastID>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
-\viewkind4\uc1\pard\fs20 The SMSTWD shall satisfy functional and non-functional concerns.\par%0D
+\viewkind4\uc1\pard\fs20 The SMSTWD shall satisfy functional concerns.\par%0D
 }%0D
 </_body>
 			<reqID type="a">0</reqID>
@@ -58,8 +58,8 @@
 			<_id type="a">GUID 4253eab7-0bf9-4bbc-88c1-f14fb47d4ba4</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Communicate alerts for tsunami and storms</_name>
-			<_modifiedTimeWeak type="a">12.14.2025::14:29:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.14.2025::14:29:14</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.15.2025::11:47:50</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.15.2025::11:47:50</_modifiedTime>
 			<_lastID type="a">1</_lastID>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The SMSTWD shall issue public alerts, and communicate to emergency responders and government agencies in real time regarding tsunamis and storms\par%0D
@@ -76,13 +76,13 @@
 			<_id type="a">GUID c7f8d330-a97c-4781-b627-8c7b6d598684</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Mobile Application Updates</_name>
-			<_modifiedTimeWeak type="a">12.14.2025::13:9:53</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.14.2025::13:9:53</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.15.2025::11:47:50</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.15.2025::11:47:50</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The SMSTWD shall send real-time updates to mobile applications.\par%0D
 }%0D
 </_body>
-			<reqID type="a">20</reqID>
+			<reqID type="a">19</reqID>
 		</IRequirement>
 		<IRequirement type="e">
 			<_id type="a">GUID 1758d1c7-5171-4b39-88f5-d82a6af08661</_id>
@@ -136,35 +136,38 @@
 			<_id type="a">GUID 2abd3752-ff6b-4454-a6b0-95d38aef6ae5</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Predict potential disasters.</_name>
-			<_modifiedTimeWeak type="a">12.14.2025::14:33:56</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.14.2025::14:33:56</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.15.2025::11:48:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.15.2025::11:48:55</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The SMSTWD shall use machine learning algorithms with early fusion for pattern identification of potential disasters.\par%0D
 }%0D
 </_body>
+			<reqID type="a">65</reqID>
 		</IRequirement>
 		<IRequirement type="e">
 			<_id type="a">GUID d9f84214-79c6-4228-9a1f-1b4129160cba</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Threshold Analysis for alerts</_name>
-			<_modifiedTimeWeak type="a">12.14.2025::14:36:48</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.14.2025::14:36:48</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.15.2025::11:48:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.15.2025::11:48:18</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The SMSTWD shall use threshold analysis to determine when to issue public alerts and communication to emergency responders/government agencies. \par%0D
 }%0D
 </_body>
+			<reqID type="a">50</reqID>
 		</IRequirement>
 		<IRequirement type="e">
 			<_id type="a">GUID 68fb7e01-ac1e-428d-aada-60ccd6e72f39</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Detect Tsunamis Accurately</_name>
-			<_modifiedTimeWeak type="a">12.14.2025::22:54:35</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.14.2025::22:54:35</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.15.2025::11:47:57</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.15.2025::11:47:57</_modifiedTime>
 			<_lastID type="a">3</_lastID>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The SMSTWD shall reliably and accurately detect tsunamis. \par%0D
 }%0D
 </_body>
+			<reqID type="a">40</reqID>
 			<AggregatesList type="e">
 				<value>GUID d6d9c171-981d-4d31-9788-a6ca14432c8b</value>
 				<value>GUID 8dbde249-1d76-480c-943f-9bfdd22ce01b</value>
@@ -175,101 +178,111 @@
 			<_id type="a">GUID d6d9c171-981d-4d31-9788-a6ca14432c8b</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Detect Tectonic Shifts</_name>
-			<_modifiedTimeWeak type="a">12.14.2025::14:40:8</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.14.2025::14:40:8</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.15.2025::11:47:57</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.15.2025::11:47:57</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The SMSTWD shall detect tectonic shifts and vibrations beneath the ocean bed.\par%0D
 }%0D
 </_body>
+			<reqID type="a">49</reqID>
 		</IRequirement>
 		<IRequirement type="e">
 			<_id type="a">GUID 8dbde249-1d76-480c-943f-9bfdd22ce01b</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Monitor Ocean Behaviour</_name>
-			<_modifiedTimeWeak type="a">12.14.2025::22:53:30</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.14.2025::22:53:30</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.15.2025::11:47:36</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.15.2025::11:47:36</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The SMSTWD shall monitor ocean water behavior. \par%0D
 }%0D
 </_body>
+			<reqID type="a">45</reqID>
 		</IRequirement>
 		<IRequirement type="e">
 			<_id type="a">GUID f8188216-16f2-4a22-8a8d-76a5d6f966f5</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Data Integration for prediction</_name>
-			<_modifiedTimeWeak type="a">12.14.2025::22:54:35</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.14.2025::22:54:35</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.15.2025::11:47:30</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.15.2025::11:47:30</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The SMSTWD shall integrate both seismic and oceanographic data into its prediction of the likelihood, intensity, and possible impact of the tsunami. \par%0D
 }%0D
 </_body>
+			<reqID type="a">41</reqID>
 		</IRequirement>
 		<IRequirement type="e">
 			<_id type="a">GUID c1e2e3db-6905-491f-abaf-ebb29a183aa6</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Track storm parameters</_name>
-			<_modifiedTimeWeak type="a">12.14.2025::22:55:11</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.14.2025::22:55:11</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.15.2025::11:49:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.15.2025::11:49:55</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The SMSTWD shall reliably and accurately track and predict storm position, wind speed, direction, and type/amount of precipitation. \par%0D
 }%0D
 </_body>
+			<reqID type="a">75</reqID>
 		</IRequirement>
 		<IRequirement type="e">
 			<_id type="a">GUID 9c37cba0-4cb5-4c5d-a7af-bf16d3e05922</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Universal De-noising</_name>
-			<_modifiedTimeWeak type="a">12.14.2025::23:46:43</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.14.2025::23:46:43</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.15.2025::11:50:2</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.15.2025::11:50:2</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The SMSTWD shall apply a single, configurable de-noising algorithm to process data from all sensor types (satellite, aerial, and underwater)\par%0D
 }%0D
 </_body>
+			<reqID type="a">80</reqID>
 		</IRequirement>
 		<IRequirement type="e">
 			<_id type="a">GUID 373ba5ba-65da-46a3-b221-2e8b15fd9fe2</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Independent Pipelines</_name>
-			<_modifiedTimeWeak type="a">12.14.2025::23:47:22</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.14.2025::23:47:22</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.15.2025::11:49:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.15.2025::11:49:47</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The SMSTWD shall process data from atmospheric, oceanic, and seismic sensors through decoupled, independent computing pipelines to ensure that a failure or data overload in one domain does not stop the processing of others.\par%0D
 }%0D
 </_body>
+			<reqID type="a">70</reqID>
 		</IRequirement>
 		<IRequirement type="e">
 			<_id type="a">GUID c7b4f886-9b41-4069-846c-b136d2e9c620</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Pulsed Telemetry</_name>
-			<_modifiedTimeWeak type="a">12.14.2025::23:47:49</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.14.2025::23:47:49</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.15.2025::11:48:43</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.15.2025::11:48:43</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The SMSTWD underwater sensors shall transmit data using periodic pulses (e.g., every 10-30 seconds) rather than a continuous stream to conserve energy, switching to continuous mode only when a hazard threshold is breached.\par%0D
 }%0D
 </_body>
+			<reqID type="a">60</reqID>
 		</IRequirement>
 		<IRequirement type="e">
 			<_id type="a">GUID ddae8bd8-1af9-4136-9bc0-e542a34200b0</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Adaptive Thresholding</_name>
-			<_modifiedTimeWeak type="a">12.14.2025::23:48:37</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.14.2025::23:48:37</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.15.2025::11:48:34</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.15.2025::11:48:34</_modifiedTime>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The SMSTWD shall dynamically alter its internal risk scoring parameters and detection thresholds in real-time based on the current environmental state (e.g., changing from &quot;calm&quot; to &quot;volatile&quot; states)\par%0D
 }%0D
 </_body>
+			<reqID type="a">55%0D
+</reqID>
 		</IRequirement>
 		<IRequirement type="e">
 			<_id type="a">GUID 9dcbfd6d-85fb-40d6-8d62-d8451e701e3d</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Geo-Spatial User Filtering</_name>
-			<_modifiedTimeWeak type="a">12.15.2025::0:5:56</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.15.2025::0:5:56</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.15.2025::11:50:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.15.2025::11:50:26</_modifiedTime>
 			<_lastID type="a">1</_lastID>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The SMSTWD shall cross-reference the predicted disaster impact zone coordinates with the registered location of users to identify the specific subset of recipients for SMS warnings.\par%0D
 }%0D
 </_body>
+			<reqID type="a">90</reqID>
 			<AggregatesList type="e">
 				<value>GUID 1e1cdf21-62e9-49e9-90d9-cbea67bd4441</value>
 			</AggregatesList>
@@ -309,13 +322,14 @@
 			<_id type="a">GUID 7bb647e2-46d1-4d66-a55b-df7a77759753</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Regional Language Configuration</_name>
-			<_modifiedTimeWeak type="a">12.15.2025::0:9:31</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.15.2025::0:9:31</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.15.2025::11:50:12</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.15.2025::11:50:12</_modifiedTime>
 			<_lastID type="a">1</_lastID>
 			<_body type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\fs20 The SMSTWD shall maintain a configurable database mapping each geographical region to its designated &quot;primary language&quot; to enable the automated translation module.\par%0D
 }%0D
 </_body>
+			<reqID type="a">85</reqID>
 			<AggregatesList type="e">
 				<value>GUID e258fcf3-5047-4f92-a5be-9f680a5e32e7</value>
 			</AggregatesList>
@@ -576,8 +590,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.15.2025::0:9:31</_modifiedTime>
-			<_lastModifiedTime type="a">12.15.2025::0:9:31</_lastModifiedTime>
+			<_modifiedTime type="a">12.15.2025::11:53:54</_modifiedTime>
+			<_lastModifiedTime type="a">12.15.2025::11:53:54</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -954,7 +968,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.149446 0 0 0.216117 1433 288.352 </m_transform>
+			<m_transform type="a">0.149446 0 0 0.223412 1433 288.364 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -975,7 +989,7 @@
 			<m_polygon type="a">4 0 3  0 1095  1084 1095  1084 3  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<frameset type="a">&lt;frameset rows=17%25,83%25&gt;
+			<frameset type="a">&lt;frameset rows=20%25,80%25&gt;
 &lt;frame name=IDTextCompartment&gt;
 &lt;frame name=SpecificationTextCompartment&gt;</frameset>
 			<_iTempdisplayTextFlag type="a">1</_iTempdisplayTextFlag>
@@ -3172,6 +3186,35 @@
 		</CGIInheritance>
 		<CGIAnnotation type="e">
 			<_id type="a">GUID 22c463f0-a3aa-4bd5-bed8-e93f4b60d979</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">FitBoxToItsTextuals</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">176</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -3198,7 +3241,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.107011 0 0 0.0549451 852 800.835 </m_transform>
+			<m_transform type="a">0.145756 0 0 0.134615 810 800.596 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -3297,7 +3340,7 @@
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
-			<m_SourcePort type="a">542 549 </m_SourcePort>
+			<m_SourcePort type="a">542 545 </m_SourcePort>
 			<m_TargetPort type="a">311 1095 </m_TargetPort>
 			<m_ShowName type="a">0</m_ShowName>
 			<m_ShowStereotype type="a">1</m_ShowStereotype>
