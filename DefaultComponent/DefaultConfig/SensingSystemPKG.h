@@ -216,6 +216,90 @@ class OMAnimatedevSwitchOff : virtual public AOMEvent {
 extern const IOxfEvent::ID evSwitchOff_SensingSystemPKG_id;
 //#]
 
+//## event evNewAerialData()
+class evNewAerialData : public OMEvent {
+    ////    Friends    ////
+    
+public :
+
+#ifdef _OMINSTRUMENT
+    friend class OMAnimatedevNewAerialData;
+#endif // _OMINSTRUMENT
+
+    ////    Constructors and destructors    ////
+    
+    //## auto_generated
+    evNewAerialData(void);
+};
+
+#ifdef _OMINSTRUMENT
+//#[ ignore
+class OMAnimatedevNewAerialData : virtual public AOMEvent {
+    DECLARE_META_EVENT(evNewAerialData)
+};
+//#]
+#endif // _OMINSTRUMENT
+
+//#[ ignore
+extern const IOxfEvent::ID evNewAerialData_SensingSystemPKG_id;
+//#]
+
+//## event evNewUnderWaterData()
+class evNewUnderWaterData : public OMEvent {
+    ////    Friends    ////
+    
+public :
+
+#ifdef _OMINSTRUMENT
+    friend class OMAnimatedevNewUnderWaterData;
+#endif // _OMINSTRUMENT
+
+    ////    Constructors and destructors    ////
+    
+    //## auto_generated
+    evNewUnderWaterData(void);
+};
+
+#ifdef _OMINSTRUMENT
+//#[ ignore
+class OMAnimatedevNewUnderWaterData : virtual public AOMEvent {
+    DECLARE_META_EVENT(evNewUnderWaterData)
+};
+//#]
+#endif // _OMINSTRUMENT
+
+//#[ ignore
+extern const IOxfEvent::ID evNewUnderWaterData_SensingSystemPKG_id;
+//#]
+
+//## event evNewSatelliteData()
+class evNewSatelliteData : public OMEvent {
+    ////    Friends    ////
+    
+public :
+
+#ifdef _OMINSTRUMENT
+    friend class OMAnimatedevNewSatelliteData;
+#endif // _OMINSTRUMENT
+
+    ////    Constructors and destructors    ////
+    
+    //## auto_generated
+    evNewSatelliteData(void);
+};
+
+#ifdef _OMINSTRUMENT
+//#[ ignore
+class OMAnimatedevNewSatelliteData : virtual public AOMEvent {
+    DECLARE_META_EVENT(evNewSatelliteData)
+};
+//#]
+#endif // _OMINSTRUMENT
+
+//#[ ignore
+extern const IOxfEvent::ID evNewSatelliteData_SensingSystemPKG_id;
+//#]
+
 #endif
 /*********************************************************************
 	File Path	: DefaultComponent\DefaultConfig\SensingSystemPKG.h

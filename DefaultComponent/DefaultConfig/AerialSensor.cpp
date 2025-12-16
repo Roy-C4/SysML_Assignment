@@ -146,6 +146,8 @@ void AerialSensor::getPrecipitationAmount(void) {
     //#[ operation getPrecipitationAmount()
     setPrecipitationAmount(double(( std::rand() % (200 + 1))));
     std::cout<<"Precipatation Amount: " << this->precipitationAmount <<std::endl;
+    
+    itsSMSTWDMain->GEN(evNewAerialData());
     //#]
 }
 
@@ -155,6 +157,7 @@ void AerialSensor::getStormPosition(void) {
     double unRounded = double(float(std::rand()) / float(1000));
     setStormPosition(double(std::round(unRounded * 100.0) / 100.0));
     std::cout<<"Storm Position: " << this->stormPosition <<std::endl;
+    itsSMSTWDMain->GEN(evNewAerialData());
     //#]
 }
 
@@ -168,6 +171,7 @@ void AerialSensor::getWindDirection(void) {
     
     std::cout << "Wind Direction: " << this->windDirection << std::endl;
     
+    itsSMSTWDMain->GEN(evNewAerialData());
     
     
     //#]
@@ -178,6 +182,7 @@ void AerialSensor::getWindSpeed(void) {
     //#[ operation getWindSpeed()
     setWindSpeed(double(( std::rand() % (500 + 1))));
     std::cout<<"Wind Speed: " << this->windSpeed <<std::endl;
+    itsSMSTWDMain->GEN(evNewAerialData());
     //#]
 }
 

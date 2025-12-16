@@ -705,21 +705,57 @@ IOxfReactive::TakeEventStatus SMSTWDMain::rootState_processEvent(void) {
         // State On
         case On:
         {
-            if(IS_EVENT_TYPE_OF(evSwitchOff_SensingSystemPKG_id) == 1)
+            if(IS_EVENT_TYPE_OF(evNewUnderWaterData_SensingSystemPKG_id) == 1)
                 {
-                    NOTIFY_TRANSITION_STARTED("2");
-                    NOTIFY_STATE_EXITED("ROOT.On");
-                    //#[ transition 2 
-                    itsAerialSensor->GEN(evIdle());
-                    itsSatelliteSensor->GEN(evIdle());
-                    itsUnderWaterSensor->GEN(evIdle());
+                    NOTIFY_TRANSITION_STARTED("4");
+                    //#[ transition 4 
+                    itsDataProcessingUnit.inferUnderWater(this->flowDirection, this->seismicVibration, this->transmissionMode, this->waterPressure);
                     //#]
-                    NOTIFY_STATE_ENTERED("ROOT.Off");
-                    rootState_subState = Off;
-                    rootState_active = Off;
-                    NOTIFY_TRANSITION_TERMINATED("2");
+                    NOTIFY_TRANSITION_TERMINATED("4");
                     res = eventConsumed;
                 }
+            else {
+                if(IS_EVENT_TYPE_OF(evSwitchOff_SensingSystemPKG_id) == 1)
+                    {
+                        NOTIFY_TRANSITION_STARTED("2");
+                        NOTIFY_STATE_EXITED("ROOT.On");
+                        //#[ transition 2 
+                        itsAerialSensor->GEN(evIdle());
+                        itsSatelliteSensor->GEN(evIdle());
+                        itsUnderWaterSensor->GEN(evIdle());
+                        //#]
+                        NOTIFY_STATE_ENTERED("ROOT.Off");
+                        rootState_subState = Off;
+                        rootState_active = Off;
+                        NOTIFY_TRANSITION_TERMINATED("2");
+                        res = eventConsumed;
+                    }
+                else {
+                    if(IS_EVENT_TYPE_OF(evNewSatelliteData_SensingSystemPKG_id) == 1)
+                        {
+                            NOTIFY_TRANSITION_STARTED("5");
+                            //#[ transition 5 
+                            itsDataProcessingUnit.inferSatellite(this->ImageData, this->stormCoordinates);
+                            //#]
+                            NOTIFY_TRANSITION_TERMINATED("5");
+                            res = eventConsumed;
+                        }
+                    else {
+                        if(IS_EVENT_TYPE_OF(evNewAerialData_SensingSystemPKG_id) == 1)
+                            {
+                                NOTIFY_TRANSITION_STARTED("3");
+                                //#[ transition 3 
+                                 itsDataProcessingUnit.inferAerial(this->precipitationAmount, this->stormPosition, this->windSpeed, this->windDirection);
+                                //#]
+                                NOTIFY_TRANSITION_TERMINATED("3");
+                                res = eventConsumed;
+                            }
+                        }
+                        
+                    }
+                    
+                }
+                
             
         }
         break;

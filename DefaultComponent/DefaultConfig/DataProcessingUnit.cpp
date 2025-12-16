@@ -15,6 +15,19 @@
 //## auto_generated
 #include "DataProcessingUnit.h"
 //#[ ignore
+#define SensingSystemPKG_DataProcessingUnit_inferAerial_SERIALIZE \
+    aomsmethod->addAttribute("precipitationAmount", x2String(precipitationAmount));\
+    aomsmethod->addAttribute("stormPosition", x2String(stormPosition));\
+    aomsmethod->addAttribute("windSpeed", x2String(windSpeed));\
+    aomsmethod->addAttribute("windDirection", x2String(windDirection));
+#define SensingSystemPKG_DataProcessingUnit_inferSatellite_SERIALIZE \
+    aomsmethod->addAttribute("ImageData", x2String(ImageData));\
+    aomsmethod->addAttribute("stormCoordinates", x2String(stormCoordinates));
+#define SensingSystemPKG_DataProcessingUnit_inferUnderWater_SERIALIZE \
+    aomsmethod->addAttribute("flowDirection", x2String(flowDirection));\
+    aomsmethod->addAttribute("seismicVibration", x2String(seismicVibration));\
+    aomsmethod->addAttribute("transmissionMode", x2String(transmissionMode));\
+    aomsmethod->addAttribute("waterPressure", x2String(waterPressure));
 #define SensingSystemPKG_DataProcessingUnit_DataProcessingUnit_SERIALIZE OM_NO_OP
 //#]
 
@@ -27,6 +40,27 @@ DataProcessingUnit::DataProcessingUnit(void) {
 
 DataProcessingUnit::~DataProcessingUnit(void) {
     NOTIFY_DESTRUCTOR(~DataProcessingUnit, true);
+}
+
+void DataProcessingUnit::inferAerial(double precipitationAmount, double stormPosition, double windSpeed, const RhpString& windDirection) {
+    NOTIFY_OPERATION(inferAerial, inferAerial(double,double,double,const RhpString&), 4, SensingSystemPKG_DataProcessingUnit_inferAerial_SERIALIZE);
+    //#[ operation inferAerial(double,double,double,RhpString)
+    std::cout << "Testing for inferAerial Parameters \n";
+    //#]
+}
+
+void DataProcessingUnit::inferSatellite(double ImageData, double stormCoordinates) {
+    NOTIFY_OPERATION(inferSatellite, inferSatellite(double,double), 2, SensingSystemPKG_DataProcessingUnit_inferSatellite_SERIALIZE);
+    //#[ operation inferSatellite(double,double)
+    std::cout << "Leo is a god among men";
+    //#]
+}
+
+void DataProcessingUnit::inferUnderWater(const RhpString& flowDirection, double seismicVibration, bool transmissionMode, double waterPressure) {
+    NOTIFY_OPERATION(inferUnderWater, inferUnderWater(const RhpString&,double,bool,double), 4, SensingSystemPKG_DataProcessingUnit_inferUnderWater_SERIALIZE);
+    //#[ operation inferUnderWater(RhpString,double,bool,double)
+    std::cout << "Reached 2";
+    //#]
 }
 
 const int DataProcessingUnit::getCurrentRiskScore(void) const {

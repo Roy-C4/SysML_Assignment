@@ -2,23 +2,23 @@ I-Logix-RPY-Archive version 8.15.0 * 202002261110
 
 - m_fileModifyTime = { IRPYRawContainer 
 	- size = 26;
-	- value = "DefaultComponent\\DefaultConfig\\AerialSensor.cpp" 12.16.2025::13:55:32
+	- value = "DefaultComponent\\DefaultConfig\\AerialSensor.cpp" 12.16.2025::15:23:11
 	"DefaultComponent\\DefaultConfig\\AerialSensor.h" 12.16.2025::13:55:32
 	"DefaultComponent\\DefaultConfig\\CommunicationUnit.cpp" 12.16.2025::10:47:31
 	"DefaultComponent\\DefaultConfig\\CommunicationUnit.h" 12.16.2025::10:47:31
-	"DefaultComponent\\DefaultConfig\\DataProcessingUnit.cpp" 12.16.2025::10:47:31
-	"DefaultComponent\\DefaultConfig\\DataProcessingUnit.h" 12.16.2025::10:47:31
+	"DefaultComponent\\DefaultConfig\\DataProcessingUnit.cpp" 12.16.2025::15:39:55
+	"DefaultComponent\\DefaultConfig\\DataProcessingUnit.h" 12.16.2025::15:39:55
 	"DefaultComponent\\DefaultConfig\\ProxyPortInterfaces.cpp" 12.16.2025::14:1:18
 	"DefaultComponent\\DefaultConfig\\ProxyPortInterfaces.h" 12.16.2025::14:1:18
 	"DefaultComponent\\DefaultConfig\\RhpString_flowDirection_ProxyFlowPropertyInterface.h" 12.16.2025::13:46:2
 	"DefaultComponent\\DefaultConfig\\RhpString_windDirection_ProxyFlowPropertyInterface.h" 12.16.2025::13:55:32
-	"DefaultComponent\\DefaultConfig\\SMSTWDMain.cpp" 12.16.2025::14:1:18
+	"DefaultComponent\\DefaultConfig\\SMSTWDMain.cpp" 12.16.2025::15:39:55
 	"DefaultComponent\\DefaultConfig\\SMSTWDMain.h" 12.16.2025::14:1:18
-	"DefaultComponent\\DefaultConfig\\SatelliteSensor.cpp" 12.16.2025::14:1:18
+	"DefaultComponent\\DefaultConfig\\SatelliteSensor.cpp" 12.16.2025::15:39:55
 	"DefaultComponent\\DefaultConfig\\SatelliteSensor.h" 12.16.2025::14:1:18
-	"DefaultComponent\\DefaultConfig\\SensingSystemPKG.cpp" 12.16.2025::14:1:18
-	"DefaultComponent\\DefaultConfig\\SensingSystemPKG.h" 12.16.2025::13:31:48
-	"DefaultComponent\\DefaultConfig\\UnderWaterSensor.cpp" 12.16.2025::13:48:4
+	"DefaultComponent\\DefaultConfig\\SensingSystemPKG.cpp" 12.16.2025::15:39:55
+	"DefaultComponent\\DefaultConfig\\SensingSystemPKG.h" 12.16.2025::15:39:55
+	"DefaultComponent\\DefaultConfig\\UnderWaterSensor.cpp" 12.16.2025::15:34:6
 	"DefaultComponent\\DefaultConfig\\UnderWaterSensor.h" 12.16.2025::13:46:3
 	"DefaultComponent\\DefaultConfig\\bool_transmissionMode_ProxyFlowPropertyInterface.h" 12.16.2025::13:46:2
 	"DefaultComponent\\DefaultConfig\\double_ImageData_ProxyFlowPropertyInterface.h" 12.16.2025::14:1:18
@@ -31,12 +31,13 @@ I-Logix-RPY-Archive version 8.15.0 * 202002261110
 	
 }
 - m_saveUnitAndOwnerSaveUnit = { IRPYRawContainer 
-	- size = 2;
+	- size = 3;
 	- value = "GUID b636a8ba-3795-45e1-83a5-407e31eebe88" "GUID 6b5fcf97-99f5-4926-8647-2097a87195d6"
+	"GUID cb5d9968-8f55-422e-934f-14789ee20b50" "GUID 6b5fcf97-99f5-4926-8647-2097a87195d6"
 	"GUID d44fff9b-f71d-428a-8191-b6d7ad475ba4" "GUID 6b5fcf97-99f5-4926-8647-2097a87195d6"
 	
 }
-- size = 38;
+- size = 71;
 - hElement = { IHandle 
 	- _m2Class = "*";
 	- _id = GUID 2940a54a-d752-4c9e-940e-c3dc5b40d123;
@@ -59,7 +60,20 @@ I-Logix-RPY-Archive version 8.15.0 * 202002261110
 	- _name = "SatelliteSensor";
 	- _id = GUID 9812595f-167e-4f9b-b2df-a9987d6e49a1;
 }
-- genTime = 12.16.2025::14:1:19;
+- genTime = 12.16.2025::15:39:55;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SysML_Assignment_rpy\\ProxyPortInterfaces.sbsx";
+	- _subsystem = "ProxyPortInterfaces";
+	- _name = "bool_transmissionMode_ProxyFlowPropertyInterface";
+	- _id = GUID 3565144d-680a-4880-bbdc-a1dd08b464bf;
+}
+- genTime = 12.16.2025::15:39:55;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 5ff33281-e335-4d1b-aa9a-bde9764c20fd;
+}
+- genTime = 12.16.2025::15:34:6;
 - hElement = { IHandle 
 	- _m2Class = "*";
 	- _id = GUID 73ca49a3-afa8-49af-9bda-a861fff60e4c;
@@ -71,7 +85,15 @@ I-Logix-RPY-Archive version 8.15.0 * 202002261110
 	- _name = "SensingSystemPKG";
 	- _id = GUID d44fff9b-f71d-428a-8191-b6d7ad475ba4;
 }
-- genTime = 12.16.2025::14:2:52;
+- genTime = 12.16.2025::15:39:55;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SysML_Assignment_rpy\\ProxyPortInterfaces.sbsx";
+	- _subsystem = "ProxyPortInterfaces";
+	- _name = "RhpString_flowDirection_ProxyFlowPropertyInterface";
+	- _id = GUID 7072485a-08ca-49fe-9edc-790fc4b4598b;
+}
+- genTime = 12.16.2025::15:39:55;
 - hElement = { IHandle 
 	- _m2Class = "*";
 	- _id = GUID 937b49f8-9c99-4426-a5d1-6808bc5c715f;
@@ -89,26 +111,73 @@ I-Logix-RPY-Archive version 8.15.0 * 202002261110
 - genTime = 12.16.2025::13:46:3;
 - hElement = { IHandle 
 	- _m2Class = "*";
+	- _id = GUID df12b48b-0296-403b-82b9-a1be50e0ebc2;
+}
+- genTime = 12.16.2025::15:23:11;
+- hElement = { IHandle 
+	- _m2Class = "*";
 	- _id = GUID d75d39fa-8408-43d5-b57c-7696735a29e2;
 }
 - genTime = 12.16.2025::13:55:33;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID f65dcdb2-e816-40cf-9d99-0ec6111ae1f1;
+}
+- genTime = 12.16.2025::15:23:11;
 - hElement = { IHandle 
 	- _m2Class = "*";
 	- _id = GUID cf7b324b-3371-4f42-8a91-73c8918f0db1;
 }
 - genTime = 12.16.2025::14:1:19;
 - hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 514ef8e3-e59b-4fab-969d-b19dc6228cf2;
+}
+- genTime = 12.16.2025::15:23:11;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 06fc7b74-0b99-4906-a426-b825adf54c7c;
+}
+- genTime = 12.16.2025::15:34:6;
+- hElement = { IHandle 
+	- _m2Class = "ISubsystem";
+	- _filename = ".\\..\\..\\SysML_Assignment_rpy\\ProxyPortInterfaces.sbsx";
+	- _name = "ProxyPortInterfaces";
+	- _id = GUID cb5d9968-8f55-422e-934f-14789ee20b50;
+}
+- genTime = 12.16.2025::15:39:55;
+- hElement = { IHandle 
 	- _m2Class = "ICodeGenConfigInfo";
 	- _filename = ".\\..\\..\\SysML_Assignment_rpy\\DefaultComponent.cmpx";
 	- _name = "DefaultComponent\\DefaultConfig";
 	- _id = GUID 199f329c-5bd7-422d-a5a1-2a4e1ebffba8;
 }
-- genTime = 12.16.2025::14:2:52;
+- genTime = 12.16.2025::15:39:55;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 9d44e4fd-aeaf-470e-9d65-47ec9a3356f3;
+}
+- genTime = 12.16.2025::15:34:6;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID ce09a001-be0e-4885-ba1d-d372614446e6;
+}
+- genTime = 12.16.2025::15:34:6;
 - hElement = { IHandle 
 	- _m2Class = "*";
 	- _id = GUID 10a3a37f-5256-4ce7-b1cc-45fe605d631d;
 }
 - genTime = 12.16.2025::14:1:19;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 61406b41-45e3-4c7f-9b00-a7f248cd12fd;
+}
+- genTime = 12.16.2025::15:34:6;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 414a5d4b-828d-426d-a5f5-a2d3e713a909;
+}
+- genTime = 12.16.2025::15:34:6;
 - hElement = { IHandle 
 	- _m2Class = "*";
 	- _id = GUID 57a17583-1cd1-4f53-8317-78e5185e9d51;
@@ -120,13 +189,49 @@ I-Logix-RPY-Archive version 8.15.0 * 202002261110
 }
 - genTime = 12.16.2025::14:1:19;
 - hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 196e870b-b3fd-4d81-a0dd-99bd5bc3a588;
+}
+- genTime = 12.16.2025::15:23:11;
+- hElement = { IHandle 
 	- _m2Class = "IClass";
 	- _filename = ".\\..\\..\\SysML_Assignment_rpy\\SensingSystemPKG.sbsx";
 	- _subsystem = "SensingSystemPKG";
 	- _name = "AerialSensor";
 	- _id = GUID 1eb818fd-679a-47e7-827b-e6e9be1fb7f0;
 }
-- genTime = 12.16.2025::13:55:33;
+- genTime = 12.16.2025::15:23:11;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID b464012e-21d9-4c49-bb86-0a645b4b1fa9;
+}
+- genTime = 12.16.2025::15:34:6;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID c2621f54-3f89-44b6-8d5a-a64628386246;
+}
+- genTime = 12.16.2025::15:34:6;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SysML_Assignment_rpy\\ProxyPortInterfaces.sbsx";
+	- _subsystem = "ProxyPortInterfaces";
+	- _name = "double_precipitationAmount_ProxyFlowPropertyInterface";
+	- _id = GUID b5e0bd40-c3f9-48fe-8bbc-a1b0268b0e2c;
+}
+- genTime = 12.16.2025::15:39:55;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 48fc0fca-3143-48a2-beeb-5cf79bcc98b3;
+}
+- genTime = 12.16.2025::15:34:6;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SysML_Assignment_rpy\\ProxyPortInterfaces.sbsx";
+	- _subsystem = "ProxyPortInterfaces";
+	- _name = "double_windSpeed_ProxyFlowPropertyInterface";
+	- _id = GUID ef3aec32-5210-48a5-a260-72b7b2952588;
+}
+- genTime = 12.16.2025::15:39:55;
 - hElement = { IHandle 
 	- _m2Class = "*";
 	- _id = GUID 5446856e-1c87-4f99-8188-9dbeb560f09f;
@@ -142,6 +247,11 @@ I-Logix-RPY-Archive version 8.15.0 * 202002261110
 	- _id = GUID 712fc061-ca40-4e81-99fa-6e4c3c781154;
 }
 - genTime = 12.16.2025::13:48:4;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 74d83b3b-4132-416f-b980-e7a69a212bc4;
+}
+- genTime = 12.16.2025::15:34:6;
 - hElement = { IHandle 
 	- _m2Class = "*";
 	- _id = GUID 6f56b981-083a-40df-87f3-0e55c68d310f;
@@ -162,9 +272,30 @@ I-Logix-RPY-Archive version 8.15.0 * 202002261110
 - genTime = 12.16.2025::13:55:33;
 - hElement = { IHandle 
 	- _m2Class = "*";
+	- _id = GUID 4d2fefd7-e96c-40c4-9472-e72613fd3610;
+}
+- genTime = 12.16.2025::15:23:11;
+- hElement = { IHandle 
+	- _m2Class = "*";
 	- _id = GUID 871715a9-6aa6-4cda-a358-42b191e682ed;
 }
 - genTime = 12.16.2025::14:1:19;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SysML_Assignment_rpy\\ProxyPortInterfaces.sbsx";
+	- _subsystem = "ProxyPortInterfaces";
+	- _name = "RhpString_windDirection_ProxyFlowPropertyInterface";
+	- _id = GUID a123fc61-b6fa-4345-870b-7661fc2cd96e;
+}
+- genTime = 12.16.2025::15:39:55;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SysML_Assignment_rpy\\ProxyPortInterfaces.sbsx";
+	- _subsystem = "ProxyPortInterfaces";
+	- _name = "double_seismicVibration_ProxyFlowPropertyInterface";
+	- _id = GUID 64f0c723-bdad-49a4-afa8-bebdf8de6aa7;
+}
+- genTime = 12.16.2025::15:39:55;
 - hElement = { IHandle 
 	- _m2Class = "*";
 	- _id = GUID 1fa98dc6-7701-4cd2-a06b-cf101b3e094c;
@@ -177,7 +308,20 @@ I-Logix-RPY-Archive version 8.15.0 * 202002261110
 	- _name = "DataProcessingUnit";
 	- _id = GUID e809fda3-3659-4bdb-9c91-d954915e516e;
 }
-- genTime = 12.16.2025::10:47:31;
+- genTime = 12.16.2025::15:39:55;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 72301eab-461c-4ac3-838f-ffa09fe70b6b;
+}
+- genTime = 12.16.2025::15:23:11;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SysML_Assignment_rpy\\ProxyPortInterfaces.sbsx";
+	- _subsystem = "ProxyPortInterfaces";
+	- _name = "double_waterPressure_ProxyFlowPropertyInterface";
+	- _id = GUID 62057876-129d-4834-94d3-2e91258ca553;
+}
+- genTime = 12.16.2025::15:39:55;
 - hElement = { IHandle 
 	- _m2Class = "*";
 	- _id = GUID 5a559aa7-af50-4a97-80c7-26dd45732759;
@@ -190,7 +334,20 @@ I-Logix-RPY-Archive version 8.15.0 * 202002261110
 	- _name = "UnderWaterSensor";
 	- _id = GUID 06aaaf25-f225-40a8-b503-ef749a4b8e6d;
 }
-- genTime = 12.16.2025::13:48:4;
+- genTime = 12.16.2025::15:34:6;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 222bb0ff-1a1a-4b0d-a47a-938ce4e18c0c;
+}
+- genTime = 12.16.2025::15:23:11;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SysML_Assignment_rpy\\ProxyPortInterfaces.sbsx";
+	- _subsystem = "ProxyPortInterfaces";
+	- _name = "double_stormCoordinates_ProxyFlowPropertyInterface";
+	- _id = GUID 77fe6db1-ad00-480a-8d0a-cc0b87f841ac;
+}
+- genTime = 12.16.2025::15:39:55;
 - hElement = { IHandle 
 	- _m2Class = "*";
 	- _id = GUID 459c5c5b-b0da-48fe-bb53-239b6160a787;
@@ -218,6 +375,11 @@ I-Logix-RPY-Archive version 8.15.0 * 202002261110
 - genTime = 12.16.2025::13:55:33;
 - hElement = { IHandle 
 	- _m2Class = "*";
+	- _id = GUID e9ae734f-aba2-4633-bd9f-a650cfe58538;
+}
+- genTime = 12.16.2025::15:23:11;
+- hElement = { IHandle 
+	- _m2Class = "*";
 	- _id = GUID fabaa900-e2f4-4755-a12b-809d862672a8;
 }
 - genTime = 12.16.2025::13:48:4;
@@ -228,7 +390,30 @@ I-Logix-RPY-Archive version 8.15.0 * 202002261110
 	- _name = "SMSTWDMain";
 	- _id = GUID 5a56cf15-9e49-4615-9f14-2467b4b3188b;
 }
-- genTime = 12.16.2025::14:1:19;
+- genTime = 12.16.2025::15:39:55;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID f9b824e4-40cb-47e2-b67b-e3bcc4965a70;
+}
+- genTime = 12.16.2025::15:34:6;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID fd725c67-2a5f-4553-8cf8-d43b2371067a;
+}
+- genTime = 12.16.2025::15:23:11;
+- hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SysML_Assignment_rpy\\ProxyPortInterfaces.sbsx";
+	- _subsystem = "ProxyPortInterfaces";
+	- _name = "double_ImageData_ProxyFlowPropertyInterface";
+	- _id = GUID ee00a268-6534-4653-94c5-a8cbc954ec88;
+}
+- genTime = 12.16.2025::15:39:55;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID b9fe32c8-5810-436a-9248-80de2c07b64a;
+}
+- genTime = 12.16.2025::15:23:11;
 - hElement = { IHandle 
 	- _m2Class = "*";
 	- _id = GUID da4ee0ed-b589-4621-8736-a1603a7d4205;
@@ -240,10 +425,23 @@ I-Logix-RPY-Archive version 8.15.0 * 202002261110
 }
 - genTime = 12.16.2025::13:48:4;
 - hElement = { IHandle 
+	- _m2Class = "IClass";
+	- _filename = ".\\..\\..\\SysML_Assignment_rpy\\ProxyPortInterfaces.sbsx";
+	- _subsystem = "ProxyPortInterfaces";
+	- _name = "double_stormPosition_ProxyFlowPropertyInterface";
+	- _id = GUID f890cecf-38b3-43af-80e1-8566a4152dee;
+}
+- genTime = 12.16.2025::15:39:55;
+- hElement = { IHandle 
 	- _m2Class = "*";
 	- _id = GUID ad2534c6-c3c2-433f-a64c-94a050dfd4be;
 }
 - genTime = 12.16.2025::13:55:33;
+- hElement = { IHandle 
+	- _m2Class = "*";
+	- _id = GUID 45049b29-07dc-4281-807d-ed5f79a3e38d;
+}
+- genTime = 12.16.2025::15:23:11;
 - hElement = { IHandle 
 	- _m2Class = "*";
 	- _id = GUID 7f319c69-4e62-446a-b44a-6471d1278539;

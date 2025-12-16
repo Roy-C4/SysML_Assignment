@@ -12,10 +12,10 @@
 			<_id type="a">GUID d44fff9b-f71d-428a-8191-b6d7ad475ba4</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SensingSystemPKG</_name>
-			<_modifiedTimeWeak type="a">12.16.2025::14:2:10</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.16.2025::14:2:10</_modifiedTime>
-			<_lastID type="a">17</_lastID>
-			<weakCGTime type="a">12.16.2025::14:2:10</weakCGTime>
+			<_modifiedTimeWeak type="a">12.16.2025::15:35:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:35:54</_modifiedTime>
+			<_lastID type="a">20</_lastID>
+			<weakCGTime type="a">12.16.2025::15:35:54</weakCGTime>
 			<strongCGTime type="a">12.16.2025::13:58:57</strongCGTime>
 			<_defaultComposite type="s">GUID e3a1be58-46cf-4114-9272-6ddd6f563dbb</_defaultComposite>
 			<_eventsBaseID type="a">19001</_eventsBaseID>
@@ -39,6 +39,9 @@
 				<value>GUID c47f59dc-b360-4c21-b1b7-67a74ffb894e</value>
 				<value>GUID a8474967-3faf-40e3-baea-93b81e0296ec</value>
 				<value>GUID 98aa43ff-da2d-49f7-af0c-d27a9e1f91b3</value>
+				<value>GUID ef23ce00-d36c-4f08-b614-6738b7fb6c8e</value>
+				<value>GUID 93b4c6f6-d349-4cba-9133-f1a5da982383</value>
+				<value>GUID ff395586-83e5-4e51-990f-4e599ed32ffb</value>
 			</AggregatesList>
 		</ISubsystem>
 		<IDiagram type="e">
@@ -300,8 +303,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.16.2025::13:58:49</_modifiedTime>
-			<_lastModifiedTime type="a">12.16.2025::13:58:49</_lastModifiedTime>
+			<_modifiedTime type="a">12.16.2025::14:53:10</_modifiedTime>
+			<_lastModifiedTime type="a">12.16.2025::14:53:10</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -460,7 +463,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">5.56018 0 0 7.90152 16 20 </m_transform>
+			<m_transform type="a">5.54167 0 0 7.90152 20 20 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -647,7 +650,10 @@
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
-			<_itemValueOfFontPropertiesMapCount type="a">2</_itemValueOfFontPropertiesMapCount>
+			<_itemValueOfFontPropertiesMapCount type="a">5</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
@@ -1386,7 +1392,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">2152</m_drawBehavior>
-			<m_transform type="a">0.148253 0 0 0.235293 25.7036 19.5878 </m_transform>
+			<m_transform type="a">0.148253 0 0 0.235293 47.7036 19.5878 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1440,6 +1446,10 @@
 			<m_displayOption type="a">All</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
+			<_itemValueOfFontPropertiesMapCount type="a">3</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGIAssociationEnd type="e">
 			<_id type="a">GUID cbbc1eb8-1a3a-43c4-b33c-64285c636df4</_id>
@@ -4152,7 +4162,10 @@
 			<m_displayOption type="a">Public</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
-			<_itemValueOfFontPropertiesMapCount type="a">2</_itemValueOfFontPropertiesMapCount>
+			<_itemValueOfFontPropertiesMapCount type="a">5</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
@@ -4820,6 +4833,10 @@
 			<m_displayOption type="a">Public</m_displayOption>
 			<m_bShowInherited type="a">0</m_bShowInherited>
 			<m_bOrdered type="a">0</m_bOrdered>
+			<_itemValueOfFontPropertiesMapCount type="a">3</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGIPortConnector type="e">
 			<_id type="a">GUID 8b7aa8c1-901e-4a21-a255-81dae24441c8</_id>
@@ -7767,16 +7784,16 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">12.16.2025::14:0:37</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">12.16.2025::15:39:33</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID f31ced8f-1065-4f05-90c5-0c41bf57fdbc</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">12.16.2025::14:0:37</_modifiedTime>
+			<_modifiedTime type="a">12.16.2025::15:39:33</_modifiedTime>
 			<_lastID type="a">16</_lastID>
-			<weakCGTime type="a">12.16.2025::14:0:37</weakCGTime>
+			<weakCGTime type="a">12.16.2025::15:39:33</weakCGTime>
 			<strongCGTime type="a">12.16.2025::13:23:54</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -7791,6 +7808,9 @@
 				<value>GUID a76d7aa5-2e5d-4b01-9efe-d69bc044aaec</value>
 				<value>GUID 4cfa8e63-017b-484e-9d32-ffde84f35794</value>
 				<value>GUID 9cce0fb1-7722-412b-86b5-896b3961e541</value>
+				<value>GUID 3c7cf81f-df84-43d0-a5d5-7cc45d8e006d</value>
+				<value>GUID 901b81e0-5ba1-4cb9-b12b-99a10078fc97</value>
+				<value>GUID c44dea1e-848f-4ac7-bfeb-467c74e00130</value>
 				<value>GUID e0b00b56-1a23-4b56-a8bb-d9c6db07736a</value>
 				<value>GUID d1d5af76-9358-410e-beb8-a63fec20a9f2</value>
 				<value>GUID 6a43b6ba-cf51-4b76-9419-8558911dc297</value>
@@ -7944,6 +7964,57 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IEvent</_hm2Class>
 					<_hid type="a">GUID 98aa43ff-da2d-49f7-af0c-d27a9e1f91b3</_hid>
+				</IHandle>
+			</_event>
+		</IReception>
+		<IReception type="e">
+			<_id type="a">GUID 3c7cf81f-df84-43d0-a5d5-7cc45d8e006d</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_event type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IEvent</_hm2Class>
+					<_hid type="a">GUID ef23ce00-d36c-4f08-b614-6738b7fb6c8e</_hid>
+				</IHandle>
+			</_event>
+		</IReception>
+		<IReception type="e">
+			<_id type="a">GUID 901b81e0-5ba1-4cb9-b12b-99a10078fc97</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_event type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IEvent</_hm2Class>
+					<_hid type="a">GUID 93b4c6f6-d349-4cba-9133-f1a5da982383</_hid>
+				</IHandle>
+			</_event>
+		</IReception>
+		<IReception type="e">
+			<_id type="a">GUID c44dea1e-848f-4ac7-bfeb-467c74e00130</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+			<_event type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IEvent</_hm2Class>
+					<_hid type="a">GUID ff395586-83e5-4e51-990f-4e599ed32ffb</_hid>
 				</IHandle>
 			</_event>
 		</IReception>
@@ -8446,10 +8517,10 @@
 			<_id type="a">GUID 5d596f82-f1d7-47a1-bdbe-3c6c1d81cce5</_id>
 			<_myState type="a">10240</_myState>
 			<_name type="a">statechart_15</_name>
-			<_modifiedTimeWeak type="a">12.16.2025::13:27:27</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.16.2025::13:27:27</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.16.2025::15:39:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:39:34</_modifiedTime>
 			<_lastID type="a">4</_lastID>
-			<weakCGTime type="a">12.16.2025::13:27:27</weakCGTime>
+			<weakCGTime type="a">12.16.2025::15:39:33</weakCGTime>
 			<strongCGTime type="a">12.16.2025::13:23:54</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -8457,13 +8528,16 @@
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_defNumber type="a">2</_defNumber>
-			<_version type="a">12.16.2025::14:27:29</_version>
+			<_version type="a">12.16.2025::16:39:34</_version>
 			<_baseVersion type="a">1.1.1970::1:0:0</_baseVersion>
 			<_diagram type="s">GUID 97ce097e-4862-4caf-9078-d654a0484d50</_diagram>
 			<AggregatesList type="e">
 				<value>GUID e273d602-6532-4404-aef2-7fef11b076c7</value>
 				<value>GUID 1ed8919c-36c3-4424-9f82-e9ffc9e8811e</value>
 				<value>GUID 2ba878e8-90d2-4f6c-b914-c9e655a6ba22</value>
+				<value>GUID 66d72050-b4d8-45d9-a048-979ee5db9723</value>
+				<value>GUID d2c903b7-078d-4fd0-b130-5d38934e8b57</value>
+				<value>GUID f4fa11a2-1ef4-48b2-ae67-56a92935a487</value>
 				<value>GUID 4e56e575-3d17-4841-b8a7-a4f30ca30e32</value>
 				<value>GUID 6bc386f6-91ae-4d86-a721-d8b0cbc7398c</value>
 				<value>GUID 5b7ef081-fd43-4cc1-8d25-f89d39161501</value>
@@ -8578,6 +8652,123 @@ itsUnderWaterSensor-&gt;GEN(evDetectParameters());</_body>
 itsSatelliteSensor-&gt;GEN(evIdle());%0D
 itsUnderWaterSensor-&gt;GEN(evIdle());</_body>
 		</IAction>
+		<ITransition type="e">
+			<_id type="a">GUID 66d72050-b4d8-45d9-a048-979ee5db9723</_id>
+			<_modifiedTimeWeak type="a">12.16.2025::15:22:34</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:22:34</_modifiedTime>
+			<_itsTarget type="s">GUID 5b7ef081-fd43-4cc1-8d25-f89d39161501</_itsTarget>
+			<_staticReaction type="a">1</_staticReaction>
+			<_itsSource type="s">GUID 5b7ef081-fd43-4cc1-8d25-f89d39161501</_itsSource>
+			<AggregatesList type="e">
+				<value>GUID b0897ab7-c656-48b6-b2f6-e170f4abf0ab</value>
+			</AggregatesList>
+		</ITransition>
+		<ILabel type="e">
+			<_id type="a">GUID b0897ab7-c656-48b6-b2f6-e170f4abf0ab</_id>
+			<_modifiedTimeWeak type="a">12.16.2025::15:22:34</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:22:34</_modifiedTime>
+			<_itsGuard>NULL</_itsGuard>
+			<AggregatesList type="e">
+				<value>GUID 3ee76e98-73c8-4829-abb0-925acd0a17e4</value>
+				<value>GUID d24766c4-1cb8-4aa1-bb26-9ec6a2e4a9db</value>
+			</AggregatesList>
+		</ILabel>
+		<IInterfaceItemTrigger type="e">
+			<_id type="a">GUID 3ee76e98-73c8-4829-abb0-925acd0a17e4</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_body type="a">event_17</_body>
+			<_itsInterfaceItem type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IEvent</_hm2Class>
+					<_hid type="a">GUID ef23ce00-d36c-4f08-b614-6738b7fb6c8e</_hid>
+				</IHandle>
+			</_itsInterfaceItem>
+		</IInterfaceItemTrigger>
+		<IAction type="e">
+			<_id type="a">GUID d24766c4-1cb8-4aa1-bb26-9ec6a2e4a9db</_id>
+			<_modifiedTimeWeak type="a">12.16.2025::15:22:34</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:22:34</_modifiedTime>
+			<_body type="a"> itsDataProcessingUnit.inferAerial(this-&gt;precipitationAmount, this-&gt;stormPosition, this-&gt;windSpeed, this-&gt;windDirection)</_body>
+		</IAction>
+		<ITransition type="e">
+			<_id type="a">GUID d2c903b7-078d-4fd0-b130-5d38934e8b57</_id>
+			<_modifiedTimeWeak type="a">12.16.2025::15:32:56</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:32:56</_modifiedTime>
+			<_itsTarget type="s">GUID 5b7ef081-fd43-4cc1-8d25-f89d39161501</_itsTarget>
+			<_staticReaction type="a">1</_staticReaction>
+			<_itsSource type="s">GUID 5b7ef081-fd43-4cc1-8d25-f89d39161501</_itsSource>
+			<AggregatesList type="e">
+				<value>GUID 9b50cd99-ebd8-45d9-8c10-b59f150e240b</value>
+			</AggregatesList>
+		</ITransition>
+		<ILabel type="e">
+			<_id type="a">GUID 9b50cd99-ebd8-45d9-8c10-b59f150e240b</_id>
+			<_modifiedTimeWeak type="a">12.16.2025::15:32:56</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:32:56</_modifiedTime>
+			<_itsGuard>NULL</_itsGuard>
+			<AggregatesList type="e">
+				<value>GUID f94181cb-b4df-4643-8e80-e08be56ee9ac</value>
+				<value>GUID 78919a91-f91c-43d0-8416-5a4063568952</value>
+			</AggregatesList>
+		</ILabel>
+		<IInterfaceItemTrigger type="e">
+			<_id type="a">GUID f94181cb-b4df-4643-8e80-e08be56ee9ac</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_body type="a">evNewUnderWaterData</_body>
+			<_itsInterfaceItem type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IEvent</_hm2Class>
+					<_hid type="a">GUID 93b4c6f6-d349-4cba-9133-f1a5da982383</_hid>
+				</IHandle>
+			</_itsInterfaceItem>
+		</IInterfaceItemTrigger>
+		<IAction type="e">
+			<_id type="a">GUID 78919a91-f91c-43d0-8416-5a4063568952</_id>
+			<_modifiedTimeWeak type="a">12.16.2025::15:32:56</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:32:56</_modifiedTime>
+			<_body type="a">itsDataProcessingUnit.inferUnderWater(this-&gt;flowDirection, this-&gt;seismicVibration, this-&gt;transmissionMode, this-&gt;waterPressure)</_body>
+		</IAction>
+		<ITransition type="e">
+			<_id type="a">GUID f4fa11a2-1ef4-48b2-ae67-56a92935a487</_id>
+			<_modifiedTimeWeak type="a">12.16.2025::15:39:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:39:33</_modifiedTime>
+			<_itsTarget type="s">GUID 5b7ef081-fd43-4cc1-8d25-f89d39161501</_itsTarget>
+			<_staticReaction type="a">1</_staticReaction>
+			<_itsSource type="s">GUID 5b7ef081-fd43-4cc1-8d25-f89d39161501</_itsSource>
+			<AggregatesList type="e">
+				<value>GUID c90266af-4f37-4692-8ad7-6eb4932670be</value>
+			</AggregatesList>
+		</ITransition>
+		<ILabel type="e">
+			<_id type="a">GUID c90266af-4f37-4692-8ad7-6eb4932670be</_id>
+			<_modifiedTimeWeak type="a">12.16.2025::15:39:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:39:33</_modifiedTime>
+			<_itsGuard>NULL</_itsGuard>
+			<AggregatesList type="e">
+				<value>GUID c3e9fb69-d8e3-40bd-8407-1aa43ea7e2ca</value>
+				<value>GUID d1d1db8b-a336-4d68-8570-73e2491d0093</value>
+			</AggregatesList>
+		</ILabel>
+		<IInterfaceItemTrigger type="e">
+			<_id type="a">GUID c3e9fb69-d8e3-40bd-8407-1aa43ea7e2ca</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_body type="a">evNewSatelliteData</_body>
+			<_itsInterfaceItem type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IEvent</_hm2Class>
+					<_hid type="a">GUID ff395586-83e5-4e51-990f-4e599ed32ffb</_hid>
+				</IHandle>
+			</_itsInterfaceItem>
+		</IInterfaceItemTrigger>
+		<IAction type="e">
+			<_id type="a">GUID d1d1db8b-a336-4d68-8570-73e2491d0093</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_body type="a">itsDataProcessingUnit.inferSatellite(this-&gt;ImageData, this-&gt;stormCoordinates)</_body>
+		</IAction>
 		<IState type="e">
 			<_id type="a">GUID 4e56e575-3d17-4841-b8a7-a4f30ca30e32</_id>
 			<_modifiedTimeWeak type="a">12.16.2025::13:24:16</_modifiedTimeWeak>
@@ -8596,8 +8787,8 @@ itsUnderWaterSensor-&gt;GEN(evIdle());</_body>
 		<IState type="e">
 			<_id type="a">GUID 5b7ef081-fd43-4cc1-8d25-f89d39161501</_id>
 			<_name type="a">On</_name>
-			<_modifiedTimeWeak type="a">12.16.2025::13:26:23</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.16.2025::13:26:23</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.16.2025::15:39:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:39:33</_modifiedTime>
 			<_parent type="s">GUID 4e56e575-3d17-4841-b8a7-a4f30ca30e32</_parent>
 			<_defaultTrans type="s"></_defaultTrans>
 		</IState>
@@ -8740,9 +8931,9 @@ itsUnderWaterSensor-&gt;GEN(evIdle());</_body>
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">statechartdiagram_0</_name>
-			<_modifiedTimeWeak type="a">12.16.2025::13:24:16</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">12.16.2025::15:39:33</_modifiedTimeWeak>
 			<_modifiedTime type="a">12.16.2025::13:26:23</_modifiedTime>
-			<_lastModifiedTime type="a">12.16.2025::13:27:29</_lastModifiedTime>
+			<_lastModifiedTime type="a">12.16.2025::15:39:33</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -9021,6 +9212,28 @@ itsUnderWaterSensor-&gt;GEN(evIdle());</_body>
 							</Metaclasses>
 						</IPropertySubject>
 						
+						<IPropertySubject type="e">
+							<_Name type="a">StatechartDiagram</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">State</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">ShowReactions</_Name>
+													<_Value type="a">True</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
 					</IRPYRawContainer>
 				</Subjects>
 			</IPropertyContainer>
@@ -9072,6 +9285,8 @@ itsUnderWaterSensor-&gt;GEN(evIdle());</_body>
 			<m_polygon type="a">4 0 0  0 1060  1096 1060  1096 0  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<frameset type="a">&lt;frameset rows=100%25&gt;
+&lt;frame name=ReactionsListCompartment&gt;</frameset>
 			<nAndLineCount type="a">0</nAndLineCount>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
@@ -9079,7 +9294,17 @@ itsUnderWaterSensor-&gt;GEN(evIdle());</_body>
 			</m_pInheritsFrom>
 			<m_nInheritanceMask type="a">0</m_nInheritanceMask>
 			<m_pDefaultComponentRelation type="s"></m_pDefaultComponentRelation>
+			<AggregatesList type="e">
+				<value>GUID d0aaa4f8-40f5-4190-b7f2-8d98d6642add</value>
+			</AggregatesList>
 		</CGIState>
+		<CGICompartment type="e">
+			<_id type="a">GUID d0aaa4f8-40f5-4190-b7f2-8d98d6642add</_id>
+			<m_name type="a">Reactions</m_name>
+			<m_displayOption type="a">All</m_displayOption>
+			<m_bShowInherited type="a">0</m_bShowInherited>
+			<m_bOrdered type="a">0</m_bOrdered>
+		</CGICompartment>
 		<CGITrans type="e">
 			<_id type="a">GUID 1bde9953-8b40-43b9-987d-d3e0de962229</_id>
 			<m_type type="a">29</m_type>
@@ -9394,16 +9619,16 @@ itsUnderWaterSensor-&gt;GEN(evIdle());</m_str>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">12.16.2025::13:53:50</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">12.16.2025::15:9:16</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID f31ced8f-1065-4f05-90c5-0c41bf57fdbc</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">12.16.2025::13:53:50</_modifiedTime>
+			<_modifiedTime type="a">12.16.2025::15:9:16</_modifiedTime>
 			<_lastID type="a">11</_lastID>
-			<weakCGTime type="a">12.16.2025::13:53:50</weakCGTime>
+			<weakCGTime type="a">12.16.2025::15:9:16</weakCGTime>
 			<strongCGTime type="a">12.16.2025::9:56:11</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -9793,8 +10018,8 @@ itsUnderWaterSensor-&gt;GEN(evIdle());</m_str>
 			<_id type="a">GUID fa6a9796-7ae1-41e3-bd80-d1fa0f568ade</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">getPrecipitationAmount</_name>
-			<_modifiedTimeWeak type="a">12.16.2025::13:52:23</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.16.2025::13:52:23</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.16.2025::15:8:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:8:23</_modifiedTime>
 			<_virtual type="a">1</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -9816,7 +10041,9 @@ itsUnderWaterSensor-&gt;GEN(evIdle());</m_str>
 			<_constant type="a">0</_constant>
 			<_itsBody type="p"><IBody type="e">
 				<_bodyData type="a">setPrecipitationAmount(double(( std::rand() %25 (200 + 1))));%0D
-std::cout&lt;&lt;&quot;Precipatation Amount: &quot; &lt;&lt; this-&gt;precipitationAmount &lt;&lt;std::endl;</_bodyData>
+std::cout&lt;&lt;&quot;Precipatation Amount: &quot; &lt;&lt; this-&gt;precipitationAmount &lt;&lt;std::endl;%0D
+%0D
+itsSMSTWDMain-&gt;GEN(evNewAerialData());</_bodyData>
 			</IBody>
 			</_itsBody>
 		</IPrimitiveOperation>
@@ -9824,8 +10051,8 @@ std::cout&lt;&lt;&quot;Precipatation Amount: &quot; &lt;&lt; this-&gt;precipitat
 			<_id type="a">GUID a97950f4-bad0-4130-b1c4-2b29258adf86</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">getStormPosition</_name>
-			<_modifiedTimeWeak type="a">12.16.2025::13:52:54</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.16.2025::13:52:54</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.16.2025::15:8:56</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:8:56</_modifiedTime>
 			<_virtual type="a">1</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -9848,7 +10075,8 @@ std::cout&lt;&lt;&quot;Precipatation Amount: &quot; &lt;&lt; this-&gt;precipitat
 			<_itsBody type="p"><IBody type="e">
 				<_bodyData type="a">double unRounded = double(float(std::rand()) / float(1000));%0D
 setStormPosition(double(std::round(unRounded * 100.0) / 100.0));%0D
-std::cout&lt;&lt;&quot;Storm Position: &quot; &lt;&lt; this-&gt;stormPosition &lt;&lt;std::endl;</_bodyData>
+std::cout&lt;&lt;&quot;Storm Position: &quot; &lt;&lt; this-&gt;stormPosition &lt;&lt;std::endl;%0D
+itsSMSTWDMain-&gt;GEN(evNewAerialData());</_bodyData>
 			</IBody>
 			</_itsBody>
 		</IPrimitiveOperation>
@@ -9856,8 +10084,8 @@ std::cout&lt;&lt;&quot;Storm Position: &quot; &lt;&lt; this-&gt;stormPosition &l
 			<_id type="a">GUID 5023c943-24ce-4c0c-8794-82ff7cb26843</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">getWindSpeed</_name>
-			<_modifiedTimeWeak type="a">12.16.2025::13:53:18</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.16.2025::13:53:18</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.16.2025::15:9:8</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:9:8</_modifiedTime>
 			<_virtual type="a">1</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -9879,7 +10107,8 @@ std::cout&lt;&lt;&quot;Storm Position: &quot; &lt;&lt; this-&gt;stormPosition &l
 			<_constant type="a">0</_constant>
 			<_itsBody type="p"><IBody type="e">
 				<_bodyData type="a">setWindSpeed(double(( std::rand() %25 (500 + 1))));%0D
-std::cout&lt;&lt;&quot;Wind Speed: &quot; &lt;&lt; this-&gt;windSpeed &lt;&lt;std::endl;</_bodyData>
+std::cout&lt;&lt;&quot;Wind Speed: &quot; &lt;&lt; this-&gt;windSpeed &lt;&lt;std::endl;%0D
+itsSMSTWDMain-&gt;GEN(evNewAerialData());</_bodyData>
 			</IBody>
 			</_itsBody>
 		</IPrimitiveOperation>
@@ -9887,8 +10116,8 @@ std::cout&lt;&lt;&quot;Wind Speed: &quot; &lt;&lt; this-&gt;windSpeed &lt;&lt;st
 			<_id type="a">GUID e36a01a8-ec4d-455f-9701-bb61b5ff6420</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">getWindDirection</_name>
-			<_modifiedTimeWeak type="a">12.16.2025::13:53:50</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.16.2025::13:53:50</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.16.2025::15:9:16</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:9:16</_modifiedTime>
 			<_virtual type="a">1</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -9916,6 +10145,7 @@ setWindDirection(dir[idx]);%0D
 %0D
 std::cout &lt;&lt; &quot;Wind Direction: &quot; &lt;&lt; this-&gt;windDirection &lt;&lt; std::endl;%0D
 %0D
+itsSMSTWDMain-&gt;GEN(evNewAerialData());%0D
 %0D
 </_bodyData>
 			</IBody>
@@ -12871,16 +13101,16 @@ std::cout &lt;&lt; &quot;Wind Direction: &quot; &lt;&lt; this-&gt;windDirection 
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">12.16.2025::13:47:57</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">12.16.2025::15:29:12</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID f31ced8f-1065-4f05-90c5-0c41bf57fdbc</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">12.16.2025::13:47:57</_modifiedTime>
+			<_modifiedTime type="a">12.16.2025::15:29:12</_modifiedTime>
 			<_lastID type="a">9</_lastID>
-			<weakCGTime type="a">12.16.2025::13:47:57</weakCGTime>
+			<weakCGTime type="a">12.16.2025::15:29:12</weakCGTime>
 			<strongCGTime type="a">12.16.2025::11:30:59</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -13271,8 +13501,8 @@ std::cout &lt;&lt; &quot;Wind Direction: &quot; &lt;&lt; this-&gt;windDirection 
 			<_id type="a">GUID 514e0ce8-adb6-412c-bd42-0e7916465214</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">getflowDirection</_name>
-			<_modifiedTimeWeak type="a">12.16.2025::13:47:27</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.16.2025::13:47:27</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.16.2025::15:27:58</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:27:58</_modifiedTime>
 			<_virtual type="a">1</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -13300,6 +13530,8 @@ int idx = int(std::rand() %25 ( 7 + 1 ));%0D
 setFlowDirection(dir[idx]);%0D
 %0D
 std::cout &lt;&lt; &quot;Wind Direction: &quot; &lt;&lt; this-&gt;flowDirection &lt;&lt; std::endl;%0D
+%0D
+itsSMSTWDMain-&gt;GEN(evNewUnderWaterData());%0D
 %0D
 %0D
 </_bodyData>
@@ -13340,8 +13572,8 @@ std::cout &lt;&lt; &quot;Wind Direction: &quot; &lt;&lt; this-&gt;flowDirection 
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">getWaterPressure</_name>
-			<_modifiedTimeWeak type="a">12.16.2025::13:47:36</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.16.2025::13:47:36</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.16.2025::15:28:50</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:28:50</_modifiedTime>
 			<_virtual type="a">1</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -13363,7 +13595,9 @@ std::cout &lt;&lt; &quot;Wind Direction: &quot; &lt;&lt; this-&gt;flowDirection 
 			<_constant type="a">0</_constant>
 			<_itsBody type="p"><IBody type="e">
 				<_bodyData type="a">setWaterPressure(double(( std::rand() %25 (500 + 1))));%0D
-std::cout&lt;&lt;&quot;Water Pressure: &quot; &lt;&lt; this-&gt;waterPressure &lt;&lt;std::endl;</_bodyData>
+std::cout&lt;&lt;&quot;Water Pressure: &quot; &lt;&lt; this-&gt;waterPressure &lt;&lt;std::endl;%0D
+%0D
+itsSMSTWDMain-&gt;GEN(evNewUnderWaterData());</_bodyData>
 			</IBody>
 			</_itsBody>
 		</IPrimitiveOperation>
@@ -13371,8 +13605,8 @@ std::cout&lt;&lt;&quot;Water Pressure: &quot; &lt;&lt; this-&gt;waterPressure &l
 			<_id type="a">GUID dd686226-aefd-489b-b01d-8748111de672</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">getSeismicVibrations</_name>
-			<_modifiedTimeWeak type="a">12.16.2025::13:47:46</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.16.2025::13:47:46</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.16.2025::15:29:2</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:29:2</_modifiedTime>
 			<_virtual type="a">1</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -13394,7 +13628,9 @@ std::cout&lt;&lt;&quot;Water Pressure: &quot; &lt;&lt; this-&gt;waterPressure &l
 			<_constant type="a">0</_constant>
 			<_itsBody type="p"><IBody type="e">
 				<_bodyData type="a">setSeismicVibration(double(( std::rand() %25 (10 + 1))));%0D
-std::cout&lt;&lt;&quot;Richter Scale reading: &quot; &lt;&lt; this-&gt;seismicVibration &lt;&lt;std::endl;</_bodyData>
+std::cout&lt;&lt;&quot;Richter Scale reading: &quot; &lt;&lt; this-&gt;seismicVibration &lt;&lt;std::endl;%0D
+%0D
+itsSMSTWDMain-&gt;GEN(evNewUnderWaterData());</_bodyData>
 			</IBody>
 			</_itsBody>
 		</IPrimitiveOperation>
@@ -13402,8 +13638,8 @@ std::cout&lt;&lt;&quot;Richter Scale reading: &quot; &lt;&lt; this-&gt;seismicVi
 			<_id type="a">GUID d506fe61-effe-466d-9362-7f8d979bf518</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">getTransmissionMode</_name>
-			<_modifiedTimeWeak type="a">12.16.2025::13:47:57</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.16.2025::13:47:57</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.16.2025::15:29:12</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:29:12</_modifiedTime>
 			<_virtual type="a">1</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -13434,7 +13670,9 @@ if (this-&gt;seismicVibration &gt;= thresholdSeismic &amp;&amp; this-&gt;waterPr
 }%0D
 else {%0D
 	setTransmissionMode(false);%0D
-}</_bodyData>
+}%0D
+%0D
+itsSMSTWDMain-&gt;GEN(evNewUnderWaterData());</_bodyData>
 			</IBody>
 			</_itsBody>
 		</IPrimitiveOperation>
@@ -16396,16 +16634,16 @@ else {%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">12.16.2025::14:0:7</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">12.16.2025::15:38:17</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID f31ced8f-1065-4f05-90c5-0c41bf57fdbc</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">12.16.2025::14:0:7</_modifiedTime>
+			<_modifiedTime type="a">12.16.2025::15:38:17</_modifiedTime>
 			<_lastID type="a">5</_lastID>
-			<weakCGTime type="a">12.16.2025::14:0:7</weakCGTime>
+			<weakCGTime type="a">12.16.2025::15:38:17</weakCGTime>
 			<strongCGTime type="a">12.16.2025::13:9:29</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -16618,8 +16856,8 @@ else {%0D
 			<_id type="a">GUID b47d66aa-079d-4de2-8a95-0cda15bf8d0f</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">getImageData</_name>
-			<_modifiedTimeWeak type="a">12.16.2025::13:59:42</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.16.2025::13:59:42</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.16.2025::15:38:5</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:38:5</_modifiedTime>
 			<_virtual type="a">1</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -16641,7 +16879,9 @@ else {%0D
 			<_constant type="a">0</_constant>
 			<_itsBody type="p"><IBody type="e">
 				<_bodyData type="a">setImageData(double(( std::rand() %25 (500 + 1))));%0D
-std::cout&lt;&lt;&quot;Image received&quot;;</_bodyData>
+std::cout&lt;&lt;&quot;Image received&quot;;%0D
+%0D
+itsSMSTWDMain-&gt;GEN(evNewSatelliteData());</_bodyData>
 			</IBody>
 			</_itsBody>
 		</IPrimitiveOperation>
@@ -16649,8 +16889,8 @@ std::cout&lt;&lt;&quot;Image received&quot;;</_bodyData>
 			<_id type="a">GUID c9583c69-c0cd-432e-9235-b0df4e54b9ac</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">getStormCoords</_name>
-			<_modifiedTimeWeak type="a">12.16.2025::14:0:7</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.16.2025::14:0:7</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.16.2025::15:38:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:38:17</_modifiedTime>
 			<_virtual type="a">1</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -16673,7 +16913,8 @@ std::cout&lt;&lt;&quot;Image received&quot;;</_bodyData>
 			<_itsBody type="p"><IBody type="e">
 				<_bodyData type="a">double unRounded = double(float(std::rand()) / float(1000));%0D
 setStormCoordinates(double(std::round(unRounded * 100.0) / 100.0));%0D
-std::cout&lt;&lt;&quot;Storm Coordinates: &quot; &lt;&lt; this-&gt;stormCoordinates &lt;&lt;std::endl;</_bodyData>
+std::cout&lt;&lt;&quot;Storm Coordinates: &quot; &lt;&lt; this-&gt;stormCoordinates &lt;&lt;std::endl;%0D
+itsSMSTWDMain-&gt;GEN(evNewSatelliteData());</_bodyData>
 			</IBody>
 			</_itsBody>
 		</IPrimitiveOperation>
@@ -18684,16 +18925,16 @@ std::cout&lt;&lt;&quot;Storm Coordinates: &quot; &lt;&lt; this-&gt;stormCoordina
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">12.15.2025::21:46:25</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">12.16.2025::15:37:7</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID f31ced8f-1065-4f05-90c5-0c41bf57fdbc</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">12.15.2025::21:46:25</_modifiedTime>
-			<_lastID type="a">3</_lastID>
-			<weakCGTime type="a">12.15.2025::21:46:25</weakCGTime>
+			<_modifiedTime type="a">12.16.2025::15:37:7</_modifiedTime>
+			<_lastID type="a">7</_lastID>
+			<weakCGTime type="a">12.16.2025::15:37:7</weakCGTime>
 			<strongCGTime type="a">12.15.2025::21:46:25</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -18701,11 +18942,311 @@ std::cout&lt;&lt;&quot;Storm Coordinates: &quot; &lt;&lt; this-&gt;stormCoordina
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<AggregatesList type="e">
+				<value>GUID d8b82009-7846-48d5-94d7-5ba547e612ea</value>
+				<value>GUID 5ce31bc9-39f6-48d1-837d-4da2b67d0ba2</value>
+				<value>GUID 4f07d23b-2574-4a88-b8a6-03bb2844cf51</value>
 				<value>GUID 0eb1274c-ec00-4018-9229-2314d3018a95</value>
 				<value>GUID 18329048-b0fb-4b86-9acf-71cd9f47ceee</value>
 				<value>GUID 0d62dfbf-7228-4302-86e2-8614ca60aceb</value>
 			</AggregatesList>
 		</IClass>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID d8b82009-7846-48d5-94d7-5ba547e612ea</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">inferAerial</_name>
+			<_modifiedTimeWeak type="a">12.16.2025::15:20:40</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:20:40</_modifiedTime>
+			<_lastID type="a">7</_lastID>
+			<_virtual type="a">1</_virtual>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+			<_itsBody type="p"><IBody type="e">
+				<_bodyData type="a">std::cout &lt;&lt; &quot;Testing for inferAerial Parameters \n&quot;;</_bodyData>
+			</IBody>
+			</_itsBody>
+			<AggregatesList type="e">
+				<value>GUID 9f14be3a-ea1e-4328-af34-9fb3de52df03</value>
+				<value>GUID 30022887-4907-4809-9d26-4a044e75b3b3</value>
+				<value>GUID 0b6933ff-05d1-4b49-9b1f-35613c15a77a</value>
+				<value>GUID b3b3082f-d116-4760-8ea7-af7662cf72e2</value>
+			</AggregatesList>
+		</IPrimitiveOperation>
+		<IArgument type="e">
+			<_id type="a">GUID 9f14be3a-ea1e-4328-af34-9fb3de52df03</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">precipitationAmount</_name>
+			<_modifiedTimeWeak type="a">12.16.2025::15:13:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:13:18</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">double</_hname>
+					<_hid type="a">GUID 02ef7294-6849-47b9-9fb2-cfb87b56d2ad</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_argumentDirection type="a">In</_argumentDirection>
+		</IArgument>
+		<IArgument type="e">
+			<_id type="a">GUID 30022887-4907-4809-9d26-4a044e75b3b3</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">stormPosition</_name>
+			<_modifiedTimeWeak type="a">12.16.2025::15:13:29</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:13:29</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">double</_hname>
+					<_hid type="a">GUID 02ef7294-6849-47b9-9fb2-cfb87b56d2ad</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_argumentDirection type="a">In</_argumentDirection>
+		</IArgument>
+		<IArgument type="e">
+			<_id type="a">GUID 0b6933ff-05d1-4b49-9b1f-35613c15a77a</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">windSpeed</_name>
+			<_modifiedTimeWeak type="a">12.16.2025::15:13:59</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:13:59</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">double</_hname>
+					<_hid type="a">GUID 02ef7294-6849-47b9-9fb2-cfb87b56d2ad</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_argumentDirection type="a">In</_argumentDirection>
+		</IArgument>
+		<IArgument type="e">
+			<_id type="a">GUID b3b3082f-d116-4760-8ea7-af7662cf72e2</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">windDirection</_name>
+			<_modifiedTimeWeak type="a">12.16.2025::15:13:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:13:47</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_argumentDirection type="a">In</_argumentDirection>
+		</IArgument>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID 5ce31bc9-39f6-48d1-837d-4da2b67d0ba2</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">inferUnderWater</_name>
+			<_modifiedTimeWeak type="a">12.16.2025::15:33:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:33:53</_modifiedTime>
+			<_lastID type="a">4</_lastID>
+			<_virtual type="a">1</_virtual>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+			<_itsBody type="p"><IBody type="e">
+				<_bodyData type="a">std::cout &lt;&lt; &quot;Reached 2&quot;;</_bodyData>
+			</IBody>
+			</_itsBody>
+			<AggregatesList type="e">
+				<value>GUID 895c5f1f-827d-48d9-a01c-fbfb024ae6bf</value>
+				<value>GUID c1e9906d-45c3-4736-bb84-16b319c9a48a</value>
+				<value>GUID f5597c21-c938-49f4-823d-46775d7e4509</value>
+				<value>GUID b80f87a2-b08a-477a-bc48-973dfa1255e0</value>
+			</AggregatesList>
+		</IPrimitiveOperation>
+		<IArgument type="e">
+			<_id type="a">GUID 895c5f1f-827d-48d9-a01c-fbfb024ae6bf</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">flowDirection</_name>
+			<_modifiedTimeWeak type="a">12.16.2025::15:29:58</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:29:58</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_argumentDirection type="a">In</_argumentDirection>
+		</IArgument>
+		<IArgument type="e">
+			<_id type="a">GUID c1e9906d-45c3-4736-bb84-16b319c9a48a</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">seismicVibration</_name>
+			<_modifiedTimeWeak type="a">12.16.2025::15:30:10</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:30:10</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">double</_hname>
+					<_hid type="a">GUID 02ef7294-6849-47b9-9fb2-cfb87b56d2ad</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_argumentDirection type="a">In</_argumentDirection>
+		</IArgument>
+		<IArgument type="e">
+			<_id type="a">GUID f5597c21-c938-49f4-823d-46775d7e4509</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">transmissionMode</_name>
+			<_modifiedTimeWeak type="a">12.16.2025::15:30:29</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:30:29</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">bool</_hname>
+					<_hid type="a">GUID e6c263cc-4bc5-4a11-b32d-02148c93add0</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_argumentDirection type="a">In</_argumentDirection>
+		</IArgument>
+		<IArgument type="e">
+			<_id type="a">GUID b80f87a2-b08a-477a-bc48-973dfa1255e0</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">waterPressure</_name>
+			<_modifiedTimeWeak type="a">12.16.2025::15:30:59</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:30:59</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">double</_hname>
+					<_hid type="a">GUID 02ef7294-6849-47b9-9fb2-cfb87b56d2ad</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_argumentDirection type="a">In</_argumentDirection>
+		</IArgument>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID 4f07d23b-2574-4a88-b8a6-03bb2844cf51</_id>
+			<_myState type="a">8192</_myState>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<IPropertySubject type="e">
+							<_Name type="a">CPP_CG</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Operation</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<IProperty type="e">
+													<_Name type="a">Kind</_Name>
+													<_Value type="a">common</_Value>
+													<_Type type="a">Enum</_Type>
+													<_ExtraTypeInfo type="a">common,virtual,abstract</_ExtraTypeInfo>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<_name type="a">inferSatellite</_name>
+			<_modifiedTimeWeak type="a">12.16.2025::15:37:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:37:7</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<_virtual type="a">1</_virtual>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID c6b70728-b655-45a0-abb7-8ea5d3da94be</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+			<_itsBody type="p"><IBody type="e">
+				<_bodyData type="a">std::cout &lt;&lt; &quot;Leo is a god among men&quot;;</_bodyData>
+			</IBody>
+			</_itsBody>
+			<AggregatesList type="e">
+				<value>GUID b642f8d5-9705-48cd-af64-fd19596979a4</value>
+				<value>GUID ce46e00c-6bc3-4f61-8669-63330d02fd17</value>
+			</AggregatesList>
+		</IPrimitiveOperation>
+		<IArgument type="e">
+			<_id type="a">GUID b642f8d5-9705-48cd-af64-fd19596979a4</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">ImageData</_name>
+			<_modifiedTimeWeak type="a">12.16.2025::15:36:57</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:36:57</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">double</_hname>
+					<_hid type="a">GUID 02ef7294-6849-47b9-9fb2-cfb87b56d2ad</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_argumentDirection type="a">In</_argumentDirection>
+		</IArgument>
+		<IArgument type="e">
+			<_id type="a">GUID ce46e00c-6bc3-4f61-8669-63330d02fd17</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">stormCoordinates</_name>
+			<_modifiedTimeWeak type="a">12.16.2025::15:37:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:37:7</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">double</_hname>
+					<_hid type="a">GUID 02ef7294-6849-47b9-9fb2-cfb87b56d2ad</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_argumentDirection type="a">In</_argumentDirection>
+		</IArgument>
 		<IAttribute type="e">
 			<_id type="a">GUID 0eb1274c-ec00-4018-9229-2314d3018a95</_id>
 			<_myState type="a">8192</_myState>
@@ -19676,6 +20217,42 @@ std::cout&lt;&lt;&quot;Storm Coordinates: &quot; &lt;&lt; this-&gt;stormCoordina
 			<_name type="a">evSwitchOff</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
 			<_modifiedTime type="a">1.1.1970::1:0:0</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID ef23ce00-d36c-4f08-b614-6738b7fb6c8e</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">evNewAerialData</_name>
+			<_modifiedTimeWeak type="a">12.16.2025::15:4:35</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:4:35</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID 93b4c6f6-d349-4cba-9133-f1a5da982383</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">evNewUnderWaterData</_name>
+			<_modifiedTimeWeak type="a">12.16.2025::15:26:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:26:11</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+				</IRPYRawContainer>
+			</Args>
+		</IEvent>
+		<IEvent type="e">
+			<_id type="a">GUID ff395586-83e5-4e51-990f-4e599ed32ffb</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">evNewSatelliteData</_name>
+			<_modifiedTimeWeak type="a">12.16.2025::15:35:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.16.2025::15:35:54</_modifiedTime>
 			<_virtual type="a">0</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">

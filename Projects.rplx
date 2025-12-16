@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>109.0</version>
+	<lang>C++</lang>
+	<BuildNo>202002261110</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	
+	<RHAPSODY-MODEL>
+	<IWorkspace type="e">
+			<m_SavedActiveProjectsName type="a">SysML_Assignment</m_SavedActiveProjectsName>
+			<_id type="a">GUID c8784aaa-21dd-4b53-b0bb-3e9116e22173</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Projects</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.15.2025::17:58:54</_modifiedTime>
+			<AggregatesList type="e">
+				<value>GUID 6b5fcf97-99f5-4926-8647-2097a87195d6</value>
+				<value>GUID eb2e9ebe-200e-4d12-98b2-d0ef50bd3b43</value>
+			</AggregatesList>
+		</IWorkspace>
+		<IProject type="e">
+			<fileName type="a">SysML_Assignment</fileName>
+			<_persistAs type="a">D:\Rhapsody_proj\SysML_Assignment</_persistAs>
+			<_id type="a">GUID 6b5fcf97-99f5-4926-8647-2097a87195d6</_id>
+		</IProject>
+		<IProject type="e">
+			<fileName type="a">Sensing3</fileName>
+			<_persistAs type="a">C:\ProgramData\IBM\Rhapsody\9.0\Sensing3</_persistAs>
+			<_id type="a">GUID eb2e9ebe-200e-4d12-98b2-d0ef50bd3b43</_id>
+		</IProject>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

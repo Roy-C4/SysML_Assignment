@@ -56,6 +56,24 @@
 #define evSwitchOff_UNSERIALIZE OM_NO_OP
 
 #define evSwitchOff_CONSTRUCTOR evSwitchOff()
+
+#define evNewAerialData_SERIALIZE OM_NO_OP
+
+#define evNewAerialData_UNSERIALIZE OM_NO_OP
+
+#define evNewAerialData_CONSTRUCTOR evNewAerialData()
+
+#define evNewUnderWaterData_SERIALIZE OM_NO_OP
+
+#define evNewUnderWaterData_UNSERIALIZE OM_NO_OP
+
+#define evNewUnderWaterData_CONSTRUCTOR evNewUnderWaterData()
+
+#define evNewSatelliteData_SERIALIZE OM_NO_OP
+
+#define evNewSatelliteData_UNSERIALIZE OM_NO_OP
+
+#define evNewSatelliteData_CONSTRUCTOR evNewSatelliteData()
 //#]
 
 //## package SensingSystemPKG
@@ -244,6 +262,42 @@ const IOxfEvent::ID evSwitchOff_SensingSystemPKG_id(19005);
 //#]
 
 IMPLEMENT_META_EVENT_P(evSwitchOff, SensingSystemPKG, SensingSystemPKG, evSwitchOff())
+
+//## event evNewAerialData()
+evNewAerialData::evNewAerialData(void) : OMEvent() {
+    NOTIFY_EVENT_CONSTRUCTOR(evNewAerialData)
+    setId(evNewAerialData_SensingSystemPKG_id);
+}
+
+//#[ ignore
+const IOxfEvent::ID evNewAerialData_SensingSystemPKG_id(19006);
+//#]
+
+IMPLEMENT_META_EVENT_P(evNewAerialData, SensingSystemPKG, SensingSystemPKG, evNewAerialData())
+
+//## event evNewUnderWaterData()
+evNewUnderWaterData::evNewUnderWaterData(void) : OMEvent() {
+    NOTIFY_EVENT_CONSTRUCTOR(evNewUnderWaterData)
+    setId(evNewUnderWaterData_SensingSystemPKG_id);
+}
+
+//#[ ignore
+const IOxfEvent::ID evNewUnderWaterData_SensingSystemPKG_id(19007);
+//#]
+
+IMPLEMENT_META_EVENT_P(evNewUnderWaterData, SensingSystemPKG, SensingSystemPKG, evNewUnderWaterData())
+
+//## event evNewSatelliteData()
+evNewSatelliteData::evNewSatelliteData(void) : OMEvent() {
+    NOTIFY_EVENT_CONSTRUCTOR(evNewSatelliteData)
+    setId(evNewSatelliteData_SensingSystemPKG_id);
+}
+
+//#[ ignore
+const IOxfEvent::ID evNewSatelliteData_SensingSystemPKG_id(19008);
+//#]
+
+IMPLEMENT_META_EVENT_P(evNewSatelliteData, SensingSystemPKG, SensingSystemPKG, evNewSatelliteData())
 
 /*********************************************************************
 	File Path	: DefaultComponent\DefaultConfig\SensingSystemPKG.cpp

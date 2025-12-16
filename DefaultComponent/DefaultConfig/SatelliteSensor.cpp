@@ -102,6 +102,8 @@ void SatelliteSensor::getImageData(void) {
     //#[ operation getImageData()
     setImageData(double(( std::rand() % (500 + 1))));
     std::cout<<"Image received";
+    
+    itsSMSTWDMain->GEN(evNewSatelliteData());
     //#]
 }
 
@@ -111,6 +113,7 @@ void SatelliteSensor::getStormCoords(void) {
     double unRounded = double(float(std::rand()) / float(1000));
     setStormCoordinates(double(std::round(unRounded * 100.0) / 100.0));
     std::cout<<"Storm Coordinates: " << this->stormCoordinates <<std::endl;
+    itsSMSTWDMain->GEN(evNewSatelliteData());
     //#]
 }
 

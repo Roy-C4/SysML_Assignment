@@ -35,7 +35,18 @@ public :
     DataProcessingUnit(void);
     
     //## auto_generated
-    ~DataProcessingUnit(void);
+    virtual ~DataProcessingUnit(void);
+    
+    ////    Operations    ////
+    
+    //## operation inferAerial(double,double,double,RhpString)
+    virtual void inferAerial(double precipitationAmount, double stormPosition, double windSpeed, const RhpString& windDirection);
+    
+    //## operation inferSatellite(double,double)
+    virtual void inferSatellite(double ImageData, double stormCoordinates);
+    
+    //## operation inferUnderWater(RhpString,double,bool,double)
+    virtual void inferUnderWater(const RhpString& flowDirection, double seismicVibration, bool transmissionMode, double waterPressure);
     
     ////    Additional operations    ////
     

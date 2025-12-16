@@ -146,6 +146,8 @@ void UnderWaterSensor::getSeismicVibrations(void) {
     //#[ operation getSeismicVibrations()
     setSeismicVibration(double(( std::rand() % (10 + 1))));
     std::cout<<"Richter Scale reading: " << this->seismicVibration <<std::endl;
+    
+    itsSMSTWDMain->GEN(evNewUnderWaterData());
     //#]
 }
 
@@ -163,6 +165,8 @@ void UnderWaterSensor::getTransmissionMode(void) {
     else {
     	setTransmissionMode(false);
     }
+    
+    itsSMSTWDMain->GEN(evNewUnderWaterData());
     //#]
 }
 
@@ -171,6 +175,8 @@ void UnderWaterSensor::getWaterPressure(void) {
     //#[ operation getWaterPressure()
     setWaterPressure(double(( std::rand() % (500 + 1))));
     std::cout<<"Water Pressure: " << this->waterPressure <<std::endl;
+    
+    itsSMSTWDMain->GEN(evNewUnderWaterData());
     //#]
 }
 
@@ -184,6 +190,8 @@ void UnderWaterSensor::getflowDirection(void) {
     setFlowDirection(dir[idx]);
     
     std::cout << "Wind Direction: " << this->flowDirection << std::endl;
+    
+    itsSMSTWDMain->GEN(evNewUnderWaterData());
     
     
     
