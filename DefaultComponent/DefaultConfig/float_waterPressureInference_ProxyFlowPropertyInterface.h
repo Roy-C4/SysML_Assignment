@@ -3,13 +3,13 @@
 	Login		: 20221943
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
-	Model Element	: double_ImageData_ProxyFlowPropertyInterface
+	Model Element	: float_waterPressureInference_ProxyFlowPropertyInterface
 //!	Generated Date	: Wed, 17, Dec 2025  
-	File Path	: DefaultComponent\DefaultConfig\double_ImageData_ProxyFlowPropertyInterface.h
+	File Path	: DefaultComponent\DefaultConfig\float_waterPressureInference_ProxyFlowPropertyInterface.h
 *********************************************************************/
 
-#ifndef double_ImageData_ProxyFlowPropertyInterface_H
-#define double_ImageData_ProxyFlowPropertyInterface_H
+#ifndef float_waterPressureInference_ProxyFlowPropertyInterface_H
+#define float_waterPressureInference_ProxyFlowPropertyInterface_H
 
 //## auto_generated
 #include <oxf.h>
@@ -21,17 +21,17 @@
 //## package ProxyPortInterfaces
 
 //## ignore
-class double_ImageData_ProxyFlowPropertyInterface {
+class float_waterPressureInference_ProxyFlowPropertyInterface {
     ////    Operations    ////
     
 public :
 
-    //## operation setImageData(double)
-    virtual void setImageData(double p_ImageData) = 0;
+    //## operation setWaterPressureInference(float)
+    virtual void setWaterPressureInference(float p_waterPressureInference) = 0;
 };
 //#]
 
 #endif
 /*********************************************************************
-	File Path	: DefaultComponent\DefaultConfig\double_ImageData_ProxyFlowPropertyInterface.h
+	File Path	: DefaultComponent\DefaultConfig\float_waterPressureInference_ProxyFlowPropertyInterface.h
 *********************************************************************/

@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: double_windSpeed_ProxyFlowPropertyInterface
-//!	Generated Date	: Tue, 16, Dec 2025  
+//!	Generated Date	: Wed, 17, Dec 2025  
 	File Path	: DefaultComponent\DefaultConfig\double_windSpeed_ProxyFlowPropertyInterface.h
 *********************************************************************/
 

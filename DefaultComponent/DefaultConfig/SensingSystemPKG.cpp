@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: SensingSystemPKG
-//!	Generated Date	: Tue, 16, Dec 2025  
+//!	Generated Date	: Wed, 17, Dec 2025  
 	File Path	: DefaultComponent\DefaultConfig\SensingSystemPKG.cpp
 *********************************************************************/
 
@@ -16,16 +16,16 @@
 #include "SensingSystemPKG.h"
 //## classInstance itsAerialSensor
 #include "AerialSensor.h"
-//## classInstance itsCommunicationUnit
-#include "CommunicationUnit.h"
-//## classInstance itsDataProcessingUnit
-#include "DataProcessingUnit.h"
 //## classInstance itsSatelliteSensor
 #include "SatelliteSensor.h"
 //## classInstance itsSMSTWDMain
 #include "SMSTWDMain.h"
 //## classInstance itsUnderWaterSensor
 #include "UnderWaterSensor.h"
+//## auto_generated
+#include "CommunicationUnit.h"
+//## auto_generated
+#include "DataProcessingUnit.h"
 //#[ ignore
 #define evDetectParameters_SERIALIZE OM_NO_OP
 
@@ -81,12 +81,6 @@
 
 //## classInstance itsAerialSensor
 AerialSensor itsAerialSensor;
-
-//## classInstance itsCommunicationUnit
-CommunicationUnit itsCommunicationUnit;
-
-//## classInstance itsDataProcessingUnit
-DataProcessingUnit itsDataProcessingUnit;
 
 //## classInstance itsSMSTWDMain
 SMSTWDMain itsSMSTWDMain;
@@ -188,8 +182,6 @@ static void RenameGlobalInstances(void) {
     OM_SET_INSTANCE_NAME(&itsAerialSensor, AerialSensor, "itsAerialSensor", AOMNoMultiplicity);
     OM_SET_INSTANCE_NAME(&itsUnderWaterSensor, UnderWaterSensor, "itsUnderWaterSensor", AOMNoMultiplicity);
     OM_SET_INSTANCE_NAME(&itsSatelliteSensor, SatelliteSensor, "itsSatelliteSensor", AOMNoMultiplicity);
-    OM_SET_INSTANCE_NAME(&itsCommunicationUnit, CommunicationUnit, "itsCommunicationUnit", AOMNoMultiplicity);
-    OM_SET_INSTANCE_NAME(&itsDataProcessingUnit, DataProcessingUnit, "itsDataProcessingUnit", AOMNoMultiplicity);
 }
 #endif // _OMINSTRUMENT
 

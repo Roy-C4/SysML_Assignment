@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: SMSTWDMain
-//!	Generated Date	: Tue, 16, Dec 2025  
+//!	Generated Date	: Wed, 17, Dec 2025  
 	File Path	: DefaultComponent\DefaultConfig\SMSTWDMain.cpp
 *********************************************************************/
 
@@ -543,6 +543,15 @@ bool SMSTWDMain::startBehavior(void) {
 }
 
 void SMSTWDMain::initRelations(void) {
+    {
+        
+        itsDataProcessingUnit.get_p_DataProcessingUnit()->setItsFloat_waterPressureInference_ProxyFlowPropertyInterface(itsCommunicationUnit.get_p_DataProcessingUnit()->getItsFloat_waterPressureInference_ProxyFlowPropertyInterface());
+        
+        itsDataProcessingUnit.get_p_DataProcessingUnit()->setItsFloat_stormIntensityInference_ProxyFlowPropertyInterface(itsCommunicationUnit.get_p_DataProcessingUnit()->getItsFloat_stormIntensityInference_ProxyFlowPropertyInterface());
+        
+        itsDataProcessingUnit.get_p_DataProcessingUnit()->setItsFloat_seismicInference_ProxyFlowPropertyInterface(itsCommunicationUnit.get_p_DataProcessingUnit()->getItsFloat_seismicInference_ProxyFlowPropertyInterface());
+        
+    }
     if (get_p_UnderWaterSensor() != NULL) {
         get_p_UnderWaterSensor()->connectSMSTWDMain(this);
     }

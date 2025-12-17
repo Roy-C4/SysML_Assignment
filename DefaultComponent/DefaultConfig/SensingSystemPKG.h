@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: SensingSystemPKG
-//!	Generated Date	: Tue, 16, Dec 2025  
+//!	Generated Date	: Wed, 17, Dec 2025  
 	File Path	: DefaultComponent\DefaultConfig\SensingSystemPKG.h
 *********************************************************************/
 
@@ -20,10 +20,10 @@
 //## classInstance itsAerialSensor
 class AerialSensor;
 
-//## classInstance itsCommunicationUnit
+//## auto_generated
 class CommunicationUnit;
 
-//## classInstance itsDataProcessingUnit
+//## auto_generated
 class DataProcessingUnit;
 
 //## classInstance itsSMSTWDMain
@@ -40,12 +40,6 @@ class UnderWaterSensor;
 
 //## classInstance itsAerialSensor
 extern AerialSensor itsAerialSensor;
-
-//## classInstance itsCommunicationUnit
-extern CommunicationUnit itsCommunicationUnit;
-
-//## classInstance itsDataProcessingUnit
-extern DataProcessingUnit itsDataProcessingUnit;
 
 //## classInstance itsSMSTWDMain
 extern SMSTWDMain itsSMSTWDMain;

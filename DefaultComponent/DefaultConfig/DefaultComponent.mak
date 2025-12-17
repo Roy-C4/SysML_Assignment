@@ -175,13 +175,13 @@ SOCK_LIB=
 
 
 
-SMSTWDMain.obj : SMSTWDMain.cpp SMSTWDMain.h    SensingSystemPKG.h AerialSensor.h UnderWaterSensor.h SatelliteSensor.h DataProcessingUnit.h CommunicationUnit.h double_seismicVibration_ProxyFlowPropertyInterface.h double_waterPressure_ProxyFlowPropertyInterface.h RhpString_flowDirection_ProxyFlowPropertyInterface.h bool_transmissionMode_ProxyFlowPropertyInterface.h 
+SMSTWDMain.obj : SMSTWDMain.cpp SMSTWDMain.h    SensingSystemPKG.h AerialSensor.h UnderWaterSensor.h SatelliteSensor.h DataProcessingUnit.h CommunicationUnit.h double_seismicVibration_ProxyFlowPropertyInterface.h float_waterPressureInference_ProxyFlowPropertyInterface.h float_stormIntensityInference_ProxyFlowPropertyInterface.h float_seismicInference_ProxyFlowPropertyInterface.h double_waterPressure_ProxyFlowPropertyInterface.h RhpString_flowDirection_ProxyFlowPropertyInterface.h bool_transmissionMode_ProxyFlowPropertyInterface.h double_windSpeed_ProxyFlowPropertyInterface.h double_precipitationAmount_ProxyFlowPropertyInterface.h double_stormPosition_ProxyFlowPropertyInterface.h RhpString_windDirection_ProxyFlowPropertyInterface.h double_ImageData_ProxyFlowPropertyInterface.h double_stormCoordinates_ProxyFlowPropertyInterface.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"SMSTWDMain.obj" "SMSTWDMain.cpp" 
 
 
 
-AerialSensor.obj : AerialSensor.cpp AerialSensor.h    SensingSystemPKG.h SMSTWDMain.h 
+AerialSensor.obj : AerialSensor.cpp AerialSensor.h    SensingSystemPKG.h SMSTWDMain.h double_windSpeed_ProxyFlowPropertyInterface.h double_precipitationAmount_ProxyFlowPropertyInterface.h double_stormPosition_ProxyFlowPropertyInterface.h RhpString_windDirection_ProxyFlowPropertyInterface.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"AerialSensor.obj" "AerialSensor.cpp" 
 
@@ -193,19 +193,19 @@ UnderWaterSensor.obj : UnderWaterSensor.cpp UnderWaterSensor.h    SensingSystemP
 
 
 
-SatelliteSensor.obj : SatelliteSensor.cpp SatelliteSensor.h    SensingSystemPKG.h SMSTWDMain.h 
+SatelliteSensor.obj : SatelliteSensor.cpp SatelliteSensor.h    SensingSystemPKG.h SMSTWDMain.h double_ImageData_ProxyFlowPropertyInterface.h double_stormCoordinates_ProxyFlowPropertyInterface.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"SatelliteSensor.obj" "SatelliteSensor.cpp" 
 
 
 
-CommunicationUnit.obj : CommunicationUnit.cpp CommunicationUnit.h    SensingSystemPKG.h 
+CommunicationUnit.obj : CommunicationUnit.cpp CommunicationUnit.h    SensingSystemPKG.h DataProcessingUnit.h float_waterPressureInference_ProxyFlowPropertyInterface.h float_stormIntensityInference_ProxyFlowPropertyInterface.h float_seismicInference_ProxyFlowPropertyInterface.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"CommunicationUnit.obj" "CommunicationUnit.cpp" 
 
 
 
-DataProcessingUnit.obj : DataProcessingUnit.cpp DataProcessingUnit.h    SensingSystemPKG.h 
+DataProcessingUnit.obj : DataProcessingUnit.cpp DataProcessingUnit.h    SensingSystemPKG.h CommunicationUnit.h float_waterPressureInference_ProxyFlowPropertyInterface.h float_stormIntensityInference_ProxyFlowPropertyInterface.h float_seismicInference_ProxyFlowPropertyInterface.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"DataProcessingUnit.obj" "DataProcessingUnit.cpp" 
 
@@ -217,7 +217,7 @@ SensingSystemPKG.obj : SensingSystemPKG.cpp SensingSystemPKG.h    SMSTWDMain.h A
 
 
 
-ProxyPortInterfaces.obj : ProxyPortInterfaces.cpp ProxyPortInterfaces.h    double_seismicVibration_ProxyFlowPropertyInterface.h double_waterPressure_ProxyFlowPropertyInterface.h RhpString_flowDirection_ProxyFlowPropertyInterface.h bool_transmissionMode_ProxyFlowPropertyInterface.h 
+ProxyPortInterfaces.obj : ProxyPortInterfaces.cpp ProxyPortInterfaces.h    double_seismicVibration_ProxyFlowPropertyInterface.h double_waterPressure_ProxyFlowPropertyInterface.h RhpString_flowDirection_ProxyFlowPropertyInterface.h bool_transmissionMode_ProxyFlowPropertyInterface.h double_windSpeed_ProxyFlowPropertyInterface.h double_precipitationAmount_ProxyFlowPropertyInterface.h double_stormPosition_ProxyFlowPropertyInterface.h RhpString_windDirection_ProxyFlowPropertyInterface.h double_ImageData_ProxyFlowPropertyInterface.h double_stormCoordinates_ProxyFlowPropertyInterface.h float_waterPressureInference_ProxyFlowPropertyInterface.h float_stormIntensityInference_ProxyFlowPropertyInterface.h float_seismicInference_ProxyFlowPropertyInterface.h 
 	$(CREATE_OBJ_DIR)
 	$(CPP) $(ConfigurationCPPCompileSwitches)  /Fo"ProxyPortInterfaces.obj" "ProxyPortInterfaces.cpp" 
 

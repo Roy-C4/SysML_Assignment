@@ -3,13 +3,13 @@
 	Login		: 20221943
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
-	Model Element	: double_ImageData_ProxyFlowPropertyInterface
+	Model Element	: float_stormIntensityInference_ProxyFlowPropertyInterface
 //!	Generated Date	: Wed, 17, Dec 2025  
-	File Path	: DefaultComponent\DefaultConfig\double_ImageData_ProxyFlowPropertyInterface.h
+	File Path	: DefaultComponent\DefaultConfig\float_stormIntensityInference_ProxyFlowPropertyInterface.h
 *********************************************************************/
 
-#ifndef double_ImageData_ProxyFlowPropertyInterface_H
-#define double_ImageData_ProxyFlowPropertyInterface_H
+#ifndef float_stormIntensityInference_ProxyFlowPropertyInterface_H
+#define float_stormIntensityInference_ProxyFlowPropertyInterface_H
 
 //## auto_generated
 #include <oxf.h>
@@ -21,17 +21,17 @@
 //## package ProxyPortInterfaces
 
 //## ignore
-class double_ImageData_ProxyFlowPropertyInterface {
+class float_stormIntensityInference_ProxyFlowPropertyInterface {
     ////    Operations    ////
     
 public :
 
-    //## operation setImageData(double)
-    virtual void setImageData(double p_ImageData) = 0;
+    //## operation setStormIntensityInference(float)
+    virtual void setStormIntensityInference(float p_stormIntensityInference) = 0;
 };
 //#]
 
 #endif
 /*********************************************************************
-	File Path	: DefaultComponent\DefaultConfig\double_ImageData_ProxyFlowPropertyInterface.h
+	File Path	: DefaultComponent\DefaultConfig\float_stormIntensityInference_ProxyFlowPropertyInterface.h
 *********************************************************************/

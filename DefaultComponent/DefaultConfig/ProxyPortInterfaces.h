@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: ProxyPortInterfaces
-//!	Generated Date	: Tue, 16, Dec 2025  
+//!	Generated Date	: Wed, 17, Dec 2025  
 	File Path	: DefaultComponent\DefaultConfig\ProxyPortInterfaces.h
 *********************************************************************/
 
@@ -44,6 +44,15 @@ class double_waterPressure_ProxyFlowPropertyInterface;
 
 //## auto_generated
 class double_windSpeed_ProxyFlowPropertyInterface;
+
+//## auto_generated
+class float_seismicInference_ProxyFlowPropertyInterface;
+
+//## auto_generated
+class float_stormIntensityInference_ProxyFlowPropertyInterface;
+
+//## auto_generated
+class float_waterPressureInference_ProxyFlowPropertyInterface;
 
 //## package ProxyPortInterfaces
 
