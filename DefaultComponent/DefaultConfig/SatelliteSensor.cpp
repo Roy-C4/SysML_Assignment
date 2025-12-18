@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: SatelliteSensor
-//!	Generated Date	: Wed, 17, Dec 2025  
+//!	Generated Date	: Thu, 18, Dec 2025  
 	File Path	: DefaultComponent\DefaultConfig\SatelliteSensor.cpp
 *********************************************************************/
 
@@ -340,7 +340,7 @@ void SatelliteSensor::state_3_entDef(void) {
     //#[ state DetectingSatellite.state_3.StormCoordCaptured.(Entry) 
     getStormCoords();
     //#]
-    state_3_timeout = scheduleTimeout(500, "ROOT.DetectingSatellite.state_3.StormCoordCaptured");
+    state_3_timeout = scheduleTimeout(8000, "ROOT.DetectingSatellite.state_3.StormCoordCaptured");
     NOTIFY_TRANSITION_TERMINATED("8");
 }
 
@@ -382,7 +382,7 @@ IOxfReactive::TakeEventStatus SatelliteSensor::state_3_processEvent(void) {
                     //#[ state DetectingSatellite.state_3.StormCoordCaptured.(Entry) 
                     getStormCoords();
                     //#]
-                    state_3_timeout = scheduleTimeout(500, "ROOT.DetectingSatellite.state_3.StormCoordCaptured");
+                    state_3_timeout = scheduleTimeout(8000, "ROOT.DetectingSatellite.state_3.StormCoordCaptured");
                     NOTIFY_TRANSITION_TERMINATED("7");
                     res = eventConsumed;
                 }
@@ -405,7 +405,7 @@ void SatelliteSensor::state_2_entDef(void) {
     //#[ state DetectingSatellite.state_2.ImageCaptured.(Entry) 
     getImageData();
     //#]
-    state_2_timeout = scheduleTimeout(500, "ROOT.DetectingSatellite.state_2.ImageCaptured");
+    state_2_timeout = scheduleTimeout(10000, "ROOT.DetectingSatellite.state_2.ImageCaptured");
     NOTIFY_TRANSITION_TERMINATED("3");
 }
 
@@ -447,7 +447,7 @@ IOxfReactive::TakeEventStatus SatelliteSensor::state_2_processEvent(void) {
                     //#[ state DetectingSatellite.state_2.ImageCaptured.(Entry) 
                     getImageData();
                     //#]
-                    state_2_timeout = scheduleTimeout(500, "ROOT.DetectingSatellite.state_2.ImageCaptured");
+                    state_2_timeout = scheduleTimeout(10000, "ROOT.DetectingSatellite.state_2.ImageCaptured");
                     NOTIFY_TRANSITION_TERMINATED("5");
                     res = eventConsumed;
                 }

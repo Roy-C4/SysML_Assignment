@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: ProxyPortInterfaces
-//!	Generated Date	: Wed, 17, Dec 2025  
+//!	Generated Date	: Thu, 18, Dec 2025  
 	File Path	: DefaultComponent\DefaultConfig\ProxyPortInterfaces.cpp
 *********************************************************************/
 
@@ -15,21 +15,7 @@
 //## auto_generated
 #include "ProxyPortInterfaces.h"
 //## auto_generated
-#include "bool_transmissionMode_ProxyFlowPropertyInterface.h"
-//## auto_generated
-#include "double_ImageData_ProxyFlowPropertyInterface.h"
-//## auto_generated
-#include "double_precipitationAmount_ProxyFlowPropertyInterface.h"
-//## auto_generated
-#include "double_seismicVibration_ProxyFlowPropertyInterface.h"
-//## auto_generated
-#include "double_stormCoordinates_ProxyFlowPropertyInterface.h"
-//## auto_generated
-#include "double_stormPosition_ProxyFlowPropertyInterface.h"
-//## auto_generated
-#include "double_waterPressure_ProxyFlowPropertyInterface.h"
-//## auto_generated
-#include "double_windSpeed_ProxyFlowPropertyInterface.h"
+#include "float_currentRiskScore_ProxyFlowPropertyInterface.h"
 //## auto_generated
 #include "float_seismicInference_ProxyFlowPropertyInterface.h"
 //## auto_generated
@@ -37,9 +23,7 @@
 //## auto_generated
 #include "float_waterPressureInference_ProxyFlowPropertyInterface.h"
 //## auto_generated
-#include "RhpString_flowDirection_ProxyFlowPropertyInterface.h"
-//## auto_generated
-#include "RhpString_windDirection_ProxyFlowPropertyInterface.h"
+#include "int_targetRegionCoordinates_ProxyFlowPropertyInterface.h"
 //## package ProxyPortInterfaces
 
 

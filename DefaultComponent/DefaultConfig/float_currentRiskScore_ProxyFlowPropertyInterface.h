@@ -3,13 +3,13 @@
 	Login		: 20221943
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
-	Model Element	: double_precipitationAmount_ProxyFlowPropertyInterface
+	Model Element	: float_currentRiskScore_ProxyFlowPropertyInterface
 //!	Generated Date	: Thu, 18, Dec 2025  
-	File Path	: DefaultComponent\DefaultConfig\double_precipitationAmount_ProxyFlowPropertyInterface.h
+	File Path	: DefaultComponent\DefaultConfig\float_currentRiskScore_ProxyFlowPropertyInterface.h
 *********************************************************************/
 
-#ifndef double_precipitationAmount_ProxyFlowPropertyInterface_H
-#define double_precipitationAmount_ProxyFlowPropertyInterface_H
+#ifndef float_currentRiskScore_ProxyFlowPropertyInterface_H
+#define float_currentRiskScore_ProxyFlowPropertyInterface_H
 
 //## auto_generated
 #include <oxf.h>
@@ -21,17 +21,17 @@
 //## package ProxyPortInterfaces
 
 //## ignore
-class double_precipitationAmount_ProxyFlowPropertyInterface {
+class float_currentRiskScore_ProxyFlowPropertyInterface {
     ////    Operations    ////
     
 public :
 
-    //## operation setPrecipitationAmount(double)
-    virtual void setPrecipitationAmount(double p_precipitationAmount) = 0;
+    //## operation setCurrentRiskScore(float)
+    virtual void setCurrentRiskScore(float p_currentRiskScore) = 0;
 };
 //#]
 
 #endif
 /*********************************************************************
-	File Path	: DefaultComponent\DefaultConfig\double_precipitationAmount_ProxyFlowPropertyInterface.h
+	File Path	: DefaultComponent\DefaultConfig\float_currentRiskScore_ProxyFlowPropertyInterface.h
 *********************************************************************/

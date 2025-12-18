@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: ProxyPortInterfaces
-//!	Generated Date	: Wed, 17, Dec 2025  
+//!	Generated Date	: Thu, 18, Dec 2025  
 	File Path	: DefaultComponent\DefaultConfig\ProxyPortInterfaces.h
 *********************************************************************/
 
@@ -16,34 +16,7 @@
 //## auto_generated
 #include <aom.h>
 //## auto_generated
-class RhpString_flowDirection_ProxyFlowPropertyInterface;
-
-//## auto_generated
-class RhpString_windDirection_ProxyFlowPropertyInterface;
-
-//## auto_generated
-class bool_transmissionMode_ProxyFlowPropertyInterface;
-
-//## auto_generated
-class double_ImageData_ProxyFlowPropertyInterface;
-
-//## auto_generated
-class double_precipitationAmount_ProxyFlowPropertyInterface;
-
-//## auto_generated
-class double_seismicVibration_ProxyFlowPropertyInterface;
-
-//## auto_generated
-class double_stormCoordinates_ProxyFlowPropertyInterface;
-
-//## auto_generated
-class double_stormPosition_ProxyFlowPropertyInterface;
-
-//## auto_generated
-class double_waterPressure_ProxyFlowPropertyInterface;
-
-//## auto_generated
-class double_windSpeed_ProxyFlowPropertyInterface;
+class float_currentRiskScore_ProxyFlowPropertyInterface;
 
 //## auto_generated
 class float_seismicInference_ProxyFlowPropertyInterface;
@@ -53,6 +26,9 @@ class float_stormIntensityInference_ProxyFlowPropertyInterface;
 
 //## auto_generated
 class float_waterPressureInference_ProxyFlowPropertyInterface;
+
+//## auto_generated
+class int_targetRegionCoordinates_ProxyFlowPropertyInterface;
 
 //## package ProxyPortInterfaces
 

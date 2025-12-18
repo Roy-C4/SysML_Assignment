@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: DataProcessingUnit
-//!	Generated Date	: Wed, 17, Dec 2025  
+//!	Generated Date	: Thu, 18, Dec 2025  
 	File Path	: DefaultComponent\DefaultConfig\DataProcessingUnit.h
 *********************************************************************/
 
@@ -18,11 +18,15 @@
 //## auto_generated
 #include "SensingSystemPKG.h"
 //## class p_DataProcessingUnit_C
+#include "float_currentRiskScore_ProxyFlowPropertyInterface.h"
+//## class p_DataProcessingUnit_C
 #include "float_seismicInference_ProxyFlowPropertyInterface.h"
 //## class p_DataProcessingUnit_C
 #include "float_stormIntensityInference_ProxyFlowPropertyInterface.h"
 //## class p_DataProcessingUnit_C
 #include "float_waterPressureInference_ProxyFlowPropertyInterface.h"
+//## class p_DataProcessingUnit_C
+#include "int_targetRegionCoordinates_ProxyFlowPropertyInterface.h"
 //## link itsCommunicationUnit
 class CommunicationUnit;
 
@@ -34,7 +38,7 @@ public :
 
 //#[ ignore
     //## package SensingSystemPKG
-    class p_DataProcessingUnit_C : public float_waterPressureInference_ProxyFlowPropertyInterface, public float_stormIntensityInference_ProxyFlowPropertyInterface, public float_seismicInference_ProxyFlowPropertyInterface {
+    class p_DataProcessingUnit_C : public float_currentRiskScore_ProxyFlowPropertyInterface, public float_waterPressureInference_ProxyFlowPropertyInterface, public float_stormIntensityInference_ProxyFlowPropertyInterface, public float_seismicInference_ProxyFlowPropertyInterface, public int_targetRegionCoordinates_ProxyFlowPropertyInterface {
         ////    Constructors and destructors    ////
         
     public :
@@ -48,6 +52,9 @@ public :
         ////    Operations    ////
         
         //## auto_generated
+        float_currentRiskScore_ProxyFlowPropertyInterface* getItsFloat_currentRiskScore_ProxyFlowPropertyInterface(void);
+        
+        //## auto_generated
         float_seismicInference_ProxyFlowPropertyInterface* getItsFloat_seismicInference_ProxyFlowPropertyInterface(void);
         
         //## auto_generated
@@ -57,7 +64,13 @@ public :
         float_waterPressureInference_ProxyFlowPropertyInterface* getItsFloat_waterPressureInference_ProxyFlowPropertyInterface(void);
         
         //## auto_generated
+        int_targetRegionCoordinates_ProxyFlowPropertyInterface* getItsInt_targetRegionCoordinates_ProxyFlowPropertyInterface(void);
+        
+        //## auto_generated
         DataProcessingUnit::p_DataProcessingUnit_C* getOutBound(void);
+        
+        //## auto_generated
+        virtual void setCurrentRiskScore(float p_currentRiskScore);
         
         //## auto_generated
         virtual void setSeismicInference(float p_seismicInference);
@@ -66,9 +79,15 @@ public :
         virtual void setStormIntensityInference(float p_stormIntensityInference);
         
         //## auto_generated
+        virtual void setTargetRegionCoordinates(int p_targetRegionCoordinates);
+        
+        //## auto_generated
         virtual void setWaterPressureInference(float p_waterPressureInference);
         
         ////    Additional operations    ////
+        
+        //## auto_generated
+        void setItsFloat_currentRiskScore_ProxyFlowPropertyInterface(float_currentRiskScore_ProxyFlowPropertyInterface* const p_float_currentRiskScore_ProxyFlowPropertyInterface);
         
         //## auto_generated
         void setItsFloat_seismicInference_ProxyFlowPropertyInterface(float_seismicInference_ProxyFlowPropertyInterface* const p_float_seismicInference_ProxyFlowPropertyInterface);
@@ -78,6 +97,9 @@ public :
         
         //## auto_generated
         void setItsFloat_waterPressureInference_ProxyFlowPropertyInterface(float_waterPressureInference_ProxyFlowPropertyInterface* const p_float_waterPressureInference_ProxyFlowPropertyInterface);
+        
+        //## auto_generated
+        void setItsInt_targetRegionCoordinates_ProxyFlowPropertyInterface(int_targetRegionCoordinates_ProxyFlowPropertyInterface* const p_int_targetRegionCoordinates_ProxyFlowPropertyInterface);
     
     protected :
     
@@ -92,11 +114,15 @@ public :
         
         ////    Relations and components    ////
         
+        float_currentRiskScore_ProxyFlowPropertyInterface* itsFloat_currentRiskScore_ProxyFlowPropertyInterface;		//## link itsFloat_currentRiskScore_ProxyFlowPropertyInterface
+        
         float_seismicInference_ProxyFlowPropertyInterface* itsFloat_seismicInference_ProxyFlowPropertyInterface;		//## link itsFloat_seismicInference_ProxyFlowPropertyInterface
         
         float_stormIntensityInference_ProxyFlowPropertyInterface* itsFloat_stormIntensityInference_ProxyFlowPropertyInterface;		//## link itsFloat_stormIntensityInference_ProxyFlowPropertyInterface
         
         float_waterPressureInference_ProxyFlowPropertyInterface* itsFloat_waterPressureInference_ProxyFlowPropertyInterface;		//## link itsFloat_waterPressureInference_ProxyFlowPropertyInterface
+        
+        int_targetRegionCoordinates_ProxyFlowPropertyInterface* itsInt_targetRegionCoordinates_ProxyFlowPropertyInterface;		//## link itsInt_targetRegionCoordinates_ProxyFlowPropertyInterface
     };
 //#]
 
@@ -122,19 +148,32 @@ public :
     //## operation InferStormIntensity()
     virtual void InferStormIntensity(void);
     
+    //## operation deNoise(float,float,float)
+    virtual float deNoise(float datapoint, float hyper1, float hyper2);
+    
     //## operation inferAerial(double,double,double,RhpString)
     virtual void inferAerial(double precipitationAmount, double stormPosition, double windSpeed, const RhpString& windDirection);
     
+    //## operation inferRisk()
+    virtual void inferRisk(void);
+    
     //## operation inferSatellite(double,double)
     virtual void inferSatellite(double ImageData, double stormCoordinates);
+    
+    //## operation inferTargetReg()
+    virtual void inferTargetReg(void);
     
     //## operation inferUnderWater(RhpString,double,bool,double)
     virtual void inferUnderWater(const RhpString& flowDirection, double seismicVibration, bool transmissionMode, double waterPressure);
     
 //#[ ignore
+    void setCurrentRiskScore(float p_currentRiskScore);
+    
     void setSeismicInference(float p_seismicInference);
     
     void setStormIntensityInference(float p_stormIntensityInference);
+    
+    void setTargetRegionCoordinates(int p_targetRegionCoordinates);
     
     void setWaterPressureInference(float p_waterPressureInference);
 //#]
@@ -154,10 +193,7 @@ public :
     void setAerialInference(const float p_aerialInference);
     
     //## auto_generated
-    const int getCurrentRiskScore(void) const;
-    
-    //## auto_generated
-    void setCurrentRiskScore(const int p_currentRiskScore);
+    const float getCurrentRiskScore(void) const;
     
     //## auto_generated
     const int getHeartbeatInterval(void) const;
@@ -172,31 +208,16 @@ public :
     void setSatelliteInference(const float p_satelliteInference);
     
     //## auto_generated
-    const float getSeismicActivityThreshold(void) const;
-    
-    //## auto_generated
-    void setSeismicActivityThreshold(const float p_seismicActivityThreshold);
-    
-    //## auto_generated
     const float getSeismicInference(void) const;
     
     //## auto_generated
     const float getStormIntensityInference(void) const;
     
     //## auto_generated
-    const int getStormIntensityThreshold(void) const;
-    
-    //## auto_generated
-    void setStormIntensityThreshold(const int p_stormIntensityThreshold);
+    const int getTargetRegionCoordinates(void) const;
     
     //## auto_generated
     const float getWaterPressureInference(void) const;
-    
-    //## auto_generated
-    const float getWaterPressureThreshold(void) const;
-    
-    //## auto_generated
-    void setWaterPressureThreshold(const float p_waterPressureThreshold);
     
     //## auto_generated
     const CommunicationUnit* getItsCommunicationUnit(void) const;
@@ -215,23 +236,19 @@ private :
 
     float aerialInference;		//## attribute aerialInference
     
-    int currentRiskScore;		//## attribute currentRiskScore
+    float currentRiskScore;		//## attribute currentRiskScore
     
     int heartbeatInterval;		//## attribute heartbeatInterval
     
     float satelliteInference;		//## attribute satelliteInference
     
-    float seismicActivityThreshold;		//## attribute seismicActivityThreshold
-    
     float seismicInference;		//## attribute seismicInference
     
     float stormIntensityInference;		//## attribute stormIntensityInference
     
-    int stormIntensityThreshold;		//## attribute stormIntensityThreshold
+    int targetRegionCoordinates;		//## attribute targetRegionCoordinates
     
     float waterPressureInference;		//## attribute waterPressureInference
-    
-    float waterPressureThreshold;		//## attribute waterPressureThreshold
     
     ////    Relations and components    ////
     

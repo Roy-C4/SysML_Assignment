@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: UnderWaterSensor
-//!	Generated Date	: Wed, 17, Dec 2025  
+//!	Generated Date	: Thu, 18, Dec 2025  
 	File Path	: DefaultComponent\DefaultConfig\UnderWaterSensor.cpp
 *********************************************************************/
 
@@ -543,7 +543,7 @@ void UnderWaterSensor::state_9_entDef(void) {
     //#[ state DetectingUnderwater.state_9.waterPressureAnalysed.(Entry) 
     getWaterPressure();
     //#]
-    state_9_timeout = scheduleTimeout(500, "ROOT.DetectingUnderwater.state_9.waterPressureAnalysed");
+    state_9_timeout = scheduleTimeout(2000, "ROOT.DetectingUnderwater.state_9.waterPressureAnalysed");
     NOTIFY_TRANSITION_TERMINATED("5");
 }
 
@@ -585,7 +585,7 @@ IOxfReactive::TakeEventStatus UnderWaterSensor::state_9_processEvent(void) {
                     //#[ state DetectingUnderwater.state_9.waterPressureAnalysed.(Entry) 
                     getWaterPressure();
                     //#]
-                    state_9_timeout = scheduleTimeout(500, "ROOT.DetectingUnderwater.state_9.waterPressureAnalysed");
+                    state_9_timeout = scheduleTimeout(2000, "ROOT.DetectingUnderwater.state_9.waterPressureAnalysed");
                     NOTIFY_TRANSITION_TERMINATED("11");
                     res = eventConsumed;
                 }
@@ -673,7 +673,7 @@ void UnderWaterSensor::state_7_entDef(void) {
     //#[ state DetectingUnderwater.state_7.seismicVibrationDetected.(Entry) 
     getSeismicVibrations();
     //#]
-    state_7_timeout = scheduleTimeout(500, "ROOT.DetectingUnderwater.state_7.seismicVibrationDetected");
+    state_7_timeout = scheduleTimeout(8000, "ROOT.DetectingUnderwater.state_7.seismicVibrationDetected");
     NOTIFY_TRANSITION_TERMINATED("3");
 }
 
@@ -715,7 +715,7 @@ IOxfReactive::TakeEventStatus UnderWaterSensor::state_7_processEvent(void) {
                     //#[ state DetectingUnderwater.state_7.seismicVibrationDetected.(Entry) 
                     getSeismicVibrations();
                     //#]
-                    state_7_timeout = scheduleTimeout(500, "ROOT.DetectingUnderwater.state_7.seismicVibrationDetected");
+                    state_7_timeout = scheduleTimeout(8000, "ROOT.DetectingUnderwater.state_7.seismicVibrationDetected");
                     NOTIFY_TRANSITION_TERMINATED("9");
                     res = eventConsumed;
                 }
@@ -738,7 +738,7 @@ void UnderWaterSensor::state_6_entDef(void) {
     //#[ state DetectingUnderwater.state_6.flowDirectionDetected.(Entry) 
     getflowDirection();
     //#]
-    state_6_timeout = scheduleTimeout(500, "ROOT.DetectingUnderwater.state_6.flowDirectionDetected");
+    state_6_timeout = scheduleTimeout(7500, "ROOT.DetectingUnderwater.state_6.flowDirectionDetected");
     NOTIFY_TRANSITION_TERMINATED("2");
 }
 
@@ -780,7 +780,7 @@ IOxfReactive::TakeEventStatus UnderWaterSensor::state_6_processEvent(void) {
                     //#[ state DetectingUnderwater.state_6.flowDirectionDetected.(Entry) 
                     getflowDirection();
                     //#]
-                    state_6_timeout = scheduleTimeout(500, "ROOT.DetectingUnderwater.state_6.flowDirectionDetected");
+                    state_6_timeout = scheduleTimeout(7500, "ROOT.DetectingUnderwater.state_6.flowDirectionDetected");
                     NOTIFY_TRANSITION_TERMINATED("7");
                     res = eventConsumed;
                 }

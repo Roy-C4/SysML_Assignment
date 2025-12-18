@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: CommunicationUnit
-//!	Generated Date	: Wed, 17, Dec 2025  
+//!	Generated Date	: Thu, 18, Dec 2025  
 	File Path	: DefaultComponent\DefaultConfig\CommunicationUnit.cpp
 *********************************************************************/
 
@@ -18,13 +18,33 @@
 #include "DataProcessingUnit.h"
 //#[ ignore
 #define SensingSystemPKG_CommunicationUnit_CommunicationUnit_SERIALIZE OM_NO_OP
+
+#define SensingSystemPKG_CommunicationUnit_Operation_13_SERIALIZE OM_NO_OP
+
+#define SensingSystemPKG_CommunicationUnit_communicateGov_SERIALIZE OM_NO_OP
+
+#define SensingSystemPKG_CommunicationUnit_communicateMessage_SERIALIZE OM_NO_OP
+
+#define SensingSystemPKG_CommunicationUnit_communicatePublic_SERIALIZE OM_NO_OP
+
+#define OMAnim_SensingSystemPKG_CommunicationUnit_setSeismicThreshold_float_UNSERIALIZE_ARGS OP_UNSER(OMDestructiveString2X,p_seismicThreshold)
+
+#define OMAnim_SensingSystemPKG_CommunicationUnit_setSeismicThreshold_float_SERIALIZE_RET_VAL
+
+#define OMAnim_SensingSystemPKG_CommunicationUnit_setStormIntensityThreshold_float_UNSERIALIZE_ARGS OP_UNSER(OMDestructiveString2X,p_stormIntensityThreshold)
+
+#define OMAnim_SensingSystemPKG_CommunicationUnit_setStormIntensityThreshold_float_SERIALIZE_RET_VAL
+
+#define OMAnim_SensingSystemPKG_CommunicationUnit_setWaterPressureThreshold_float_UNSERIALIZE_ARGS OP_UNSER(OMDestructiveString2X,p_waterPressureThreshold)
+
+#define OMAnim_SensingSystemPKG_CommunicationUnit_setWaterPressureThreshold_float_SERIALIZE_RET_VAL
 //#]
 
 //## package SensingSystemPKG
 
 //## class CommunicationUnit
 //#[ ignore
-CommunicationUnit::p_DataProcessingUnit_C::p_DataProcessingUnit_C(void) : float_waterPressureInference_ProxyFlowPropertyInterface(), float_stormIntensityInference_ProxyFlowPropertyInterface(), float_seismicInference_ProxyFlowPropertyInterface(), _p_(0), itsFloat_seismicInference_ProxyFlowPropertyInterface(NULL), itsFloat_stormIntensityInference_ProxyFlowPropertyInterface(NULL), itsFloat_waterPressureInference_ProxyFlowPropertyInterface(NULL) {
+CommunicationUnit::p_DataProcessingUnit_C::p_DataProcessingUnit_C(void) : float_currentRiskScore_ProxyFlowPropertyInterface(), float_waterPressureInference_ProxyFlowPropertyInterface(), float_stormIntensityInference_ProxyFlowPropertyInterface(), float_seismicInference_ProxyFlowPropertyInterface(), int_targetRegionCoordinates_ProxyFlowPropertyInterface(), _p_(0), itsFloat_currentRiskScore_ProxyFlowPropertyInterface(NULL), itsFloat_seismicInference_ProxyFlowPropertyInterface(NULL), itsFloat_stormIntensityInference_ProxyFlowPropertyInterface(NULL), itsFloat_waterPressureInference_ProxyFlowPropertyInterface(NULL), itsInt_targetRegionCoordinates_ProxyFlowPropertyInterface(NULL) {
 }
 
 CommunicationUnit::p_DataProcessingUnit_C::~p_DataProcessingUnit_C(void) {
@@ -32,10 +52,16 @@ CommunicationUnit::p_DataProcessingUnit_C::~p_DataProcessingUnit_C(void) {
 }
 
 void CommunicationUnit::p_DataProcessingUnit_C::connectCommunicationUnit(CommunicationUnit* part) {
+    setItsFloat_currentRiskScore_ProxyFlowPropertyInterface(part);
     setItsFloat_waterPressureInference_ProxyFlowPropertyInterface(part);
     setItsFloat_stormIntensityInference_ProxyFlowPropertyInterface(part);
     setItsFloat_seismicInference_ProxyFlowPropertyInterface(part);
+    setItsInt_targetRegionCoordinates_ProxyFlowPropertyInterface(part);
     
+}
+
+float_currentRiskScore_ProxyFlowPropertyInterface* CommunicationUnit::p_DataProcessingUnit_C::getItsFloat_currentRiskScore_ProxyFlowPropertyInterface(void) {
+    return this;
 }
 
 float_seismicInference_ProxyFlowPropertyInterface* CommunicationUnit::p_DataProcessingUnit_C::getItsFloat_seismicInference_ProxyFlowPropertyInterface(void) {
@@ -48,6 +74,18 @@ float_stormIntensityInference_ProxyFlowPropertyInterface* CommunicationUnit::p_D
 
 float_waterPressureInference_ProxyFlowPropertyInterface* CommunicationUnit::p_DataProcessingUnit_C::getItsFloat_waterPressureInference_ProxyFlowPropertyInterface(void) {
     return this;
+}
+
+int_targetRegionCoordinates_ProxyFlowPropertyInterface* CommunicationUnit::p_DataProcessingUnit_C::getItsInt_targetRegionCoordinates_ProxyFlowPropertyInterface(void) {
+    return this;
+}
+
+void CommunicationUnit::p_DataProcessingUnit_C::setCurrentRiskScore(float p_currentRiskScore) {
+    
+    if (itsFloat_currentRiskScore_ProxyFlowPropertyInterface != NULL) {
+        itsFloat_currentRiskScore_ProxyFlowPropertyInterface->setCurrentRiskScore(p_currentRiskScore);
+    }
+    
 }
 
 void CommunicationUnit::p_DataProcessingUnit_C::setSeismicInference(float p_seismicInference) {
@@ -66,12 +104,24 @@ void CommunicationUnit::p_DataProcessingUnit_C::setStormIntensityInference(float
     
 }
 
+void CommunicationUnit::p_DataProcessingUnit_C::setTargetRegionCoordinates(int p_targetRegionCoordinates) {
+    
+    if (itsInt_targetRegionCoordinates_ProxyFlowPropertyInterface != NULL) {
+        itsInt_targetRegionCoordinates_ProxyFlowPropertyInterface->setTargetRegionCoordinates(p_targetRegionCoordinates);
+    }
+    
+}
+
 void CommunicationUnit::p_DataProcessingUnit_C::setWaterPressureInference(float p_waterPressureInference) {
     
     if (itsFloat_waterPressureInference_ProxyFlowPropertyInterface != NULL) {
         itsFloat_waterPressureInference_ProxyFlowPropertyInterface->setWaterPressureInference(p_waterPressureInference);
     }
     
+}
+
+void CommunicationUnit::p_DataProcessingUnit_C::setItsFloat_currentRiskScore_ProxyFlowPropertyInterface(float_currentRiskScore_ProxyFlowPropertyInterface* const p_float_currentRiskScore_ProxyFlowPropertyInterface) {
+    itsFloat_currentRiskScore_ProxyFlowPropertyInterface = p_float_currentRiskScore_ProxyFlowPropertyInterface;
 }
 
 void CommunicationUnit::p_DataProcessingUnit_C::setItsFloat_seismicInference_ProxyFlowPropertyInterface(float_seismicInference_ProxyFlowPropertyInterface* const p_float_seismicInference_ProxyFlowPropertyInterface) {
@@ -86,7 +136,15 @@ void CommunicationUnit::p_DataProcessingUnit_C::setItsFloat_waterPressureInferen
     itsFloat_waterPressureInference_ProxyFlowPropertyInterface = p_float_waterPressureInference_ProxyFlowPropertyInterface;
 }
 
+void CommunicationUnit::p_DataProcessingUnit_C::setItsInt_targetRegionCoordinates_ProxyFlowPropertyInterface(int_targetRegionCoordinates_ProxyFlowPropertyInterface* const p_int_targetRegionCoordinates_ProxyFlowPropertyInterface) {
+    itsInt_targetRegionCoordinates_ProxyFlowPropertyInterface = p_int_targetRegionCoordinates_ProxyFlowPropertyInterface;
+}
+
 void CommunicationUnit::p_DataProcessingUnit_C::cleanUpRelations(void) {
+    if(itsFloat_currentRiskScore_ProxyFlowPropertyInterface != NULL)
+        {
+            itsFloat_currentRiskScore_ProxyFlowPropertyInterface = NULL;
+        }
     if(itsFloat_seismicInference_ProxyFlowPropertyInterface != NULL)
         {
             itsFloat_seismicInference_ProxyFlowPropertyInterface = NULL;
@@ -99,10 +157,14 @@ void CommunicationUnit::p_DataProcessingUnit_C::cleanUpRelations(void) {
         {
             itsFloat_waterPressureInference_ProxyFlowPropertyInterface = NULL;
         }
+    if(itsInt_targetRegionCoordinates_ProxyFlowPropertyInterface != NULL)
+        {
+            itsInt_targetRegionCoordinates_ProxyFlowPropertyInterface = NULL;
+        }
 }
 //#]
 
-CommunicationUnit::CommunicationUnit(void) : float_waterPressureInference_ProxyFlowPropertyInterface(), float_stormIntensityInference_ProxyFlowPropertyInterface(), float_seismicInference_ProxyFlowPropertyInterface(), itsDataProcessingUnit(NULL) {
+CommunicationUnit::CommunicationUnit(void) : float_currentRiskScore_ProxyFlowPropertyInterface(), float_waterPressureInference_ProxyFlowPropertyInterface(), float_stormIntensityInference_ProxyFlowPropertyInterface(), float_seismicInference_ProxyFlowPropertyInterface(), int_targetRegionCoordinates_ProxyFlowPropertyInterface(), riskThreshold(0.52), seismicThreshold(0.5), stormIntensityThreshold(0.5), waterPressureThreshold(0.5), itsDataProcessingUnit(NULL) {
     NOTIFY_CONSTRUCTOR(CommunicationUnit, CommunicationUnit(), 0, SensingSystemPKG_CommunicationUnit_CommunicationUnit_SERIALIZE);
     initRelations();
 }
@@ -112,7 +174,74 @@ CommunicationUnit::~CommunicationUnit(void) {
     cleanUpRelations();
 }
 
+void CommunicationUnit::Operation_13(void) {
+    NOTIFY_OPERATION(Operation_13, Operation_13(), 0, SensingSystemPKG_CommunicationUnit_Operation_13_SERIALIZE);
+    //#[ operation Operation_13()
+    //#]
+}
+
+void CommunicationUnit::communicateGov(void) {
+    NOTIFY_OPERATION(communicateGov, communicateGov(), 0, SensingSystemPKG_CommunicationUnit_communicateGov_SERIALIZE);
+    //#[ operation communicateGov()
+    
+    
+    if (this->stormIntensityInference >= this->stormIntensityThreshold || this->waterPressureInference >= this->waterPressureThreshold || this->seismicInference >= this->seismicThreshold){
+    	this->govMessage = "Shits going down!";
+    }
+    else{
+    	this->govMessage = "Everything is FiNe!";
+    
+    } 
+    
+    if (this->currentRiskScore>= this->riskThreshold){
+    	this->ledLight = true;
+    
+    }
+    else{
+    	this->ledLight = false;
+    }
+    //#]
+}
+
+void CommunicationUnit::communicateMessage(void) {
+    NOTIFY_OPERATION(communicateMessage, communicateMessage(), 0, SensingSystemPKG_CommunicationUnit_communicateMessage_SERIALIZE);
+    //#[ operation communicateMessage()
+    this->communicatePublic();
+    this->communicateGov();
+    //#]
+}
+
+void CommunicationUnit::communicatePublic(void) {
+    NOTIFY_OPERATION(communicatePublic, communicatePublic(), 0, SensingSystemPKG_CommunicationUnit_communicatePublic_SERIALIZE);
+    //#[ operation communicatePublic()
+    char* lang[2] = {"English", "Romanian"};
+    
+    char* message = "RUN BITCH!";
+    
+    if (this->stormIntensityInference >= this->stormIntensityThreshold || this->waterPressureInference >= this->waterPressureThreshold || this->seismicInference >= this->seismicThreshold){
+    	this->publicMessage = message;
+    	this->publicRisk = this->currentRiskScore;
+    	this->publicMessageLang= lang[this->targetRegionCoordinates];
+    }
+    else{
+    	this->publicMessage = "";
+    	this->publicRisk = 0.0;
+    	this->publicMessageLang = "";
+    } 
+    
+    
+    //#]
+}
+
 //#[ ignore
+void CommunicationUnit::setCurrentRiskScore(float p_currentRiskScore) {
+    if (currentRiskScore != p_currentRiskScore) {
+        currentRiskScore = p_currentRiskScore;
+        FLOW_DATA_RECEIVE("currentRiskScore", currentRiskScore, x2String);
+    }
+    
+}
+
 void CommunicationUnit::setSeismicInference(float p_seismicInference) {
     if (seismicInference != p_seismicInference) {
         seismicInference = p_seismicInference;
@@ -125,6 +254,14 @@ void CommunicationUnit::setStormIntensityInference(float p_stormIntensityInferen
     if (stormIntensityInference != p_stormIntensityInference) {
         stormIntensityInference = p_stormIntensityInference;
         FLOW_DATA_RECEIVE("stormIntensityInference", stormIntensityInference, x2String);
+    }
+    
+}
+
+void CommunicationUnit::setTargetRegionCoordinates(int p_targetRegionCoordinates) {
+    if (targetRegionCoordinates != p_targetRegionCoordinates) {
+        targetRegionCoordinates = p_targetRegionCoordinates;
+        FLOW_DATA_RECEIVE("targetRegionCoordinates", targetRegionCoordinates, x2String);
     }
     
 }
@@ -146,32 +283,112 @@ CommunicationUnit::p_DataProcessingUnit_C* CommunicationUnit::get_p_DataProcessi
     return (CommunicationUnit::p_DataProcessingUnit_C*) &p_DataProcessingUnit;
 }
 
-const int CommunicationUnit::getActiveChannels(void) const {
+const RhpString CommunicationUnit::getActiveChannels(void) const {
     return activeChannels;
 }
 
-void CommunicationUnit::setActiveChannels(const int p_activeChannels) {
+void CommunicationUnit::setActiveChannels(const RhpString p_activeChannels) {
     activeChannels = p_activeChannels;
+}
+
+const float CommunicationUnit::getCurrentRiskScore(void) const {
+    return currentRiskScore;
+}
+
+const RhpString CommunicationUnit::getGovMessage(void) const {
+    return govMessage;
+}
+
+void CommunicationUnit::setGovMessage(const RhpString p_govMessage) {
+    govMessage = p_govMessage;
+    NOTIFY_SET_OPERATION;
+}
+
+const bool CommunicationUnit::getLedLight(void) const {
+    return ledLight;
+}
+
+void CommunicationUnit::setLedLight(const bool p_ledLight) {
+    ledLight = p_ledLight;
+    NOTIFY_SET_OPERATION;
+}
+
+const RhpString CommunicationUnit::getPublicMessage(void) const {
+    return publicMessage;
+}
+
+void CommunicationUnit::setPublicMessage(const RhpString p_publicMessage) {
+    publicMessage = p_publicMessage;
+    NOTIFY_SET_OPERATION;
+}
+
+const RhpString CommunicationUnit::getPublicMessageLang(void) const {
+    return publicMessageLang;
+}
+
+void CommunicationUnit::setPublicMessageLang(const RhpString p_publicMessageLang) {
+    publicMessageLang = p_publicMessageLang;
+    NOTIFY_SET_OPERATION;
+}
+
+const float CommunicationUnit::getPublicRisk(void) const {
+    return publicRisk;
+}
+
+void CommunicationUnit::setPublicRisk(const float p_publicRisk) {
+    publicRisk = p_publicRisk;
+    NOTIFY_SET_OPERATION;
+}
+
+const int CommunicationUnit::getRiskThreshold(void) const {
+    return riskThreshold;
+}
+
+void CommunicationUnit::setRiskThreshold(const int p_riskThreshold) {
+    riskThreshold = p_riskThreshold;
 }
 
 const float CommunicationUnit::getSeismicInference(void) const {
     return seismicInference;
 }
 
+const float CommunicationUnit::getSeismicThreshold(void) const {
+    return seismicThreshold;
+}
+
+void CommunicationUnit::setSeismicThreshold(const float p_seismicThreshold) {
+    seismicThreshold = p_seismicThreshold;
+    NOTIFY_SET_OPERATION;
+}
+
 const float CommunicationUnit::getStormIntensityInference(void) const {
     return stormIntensityInference;
 }
 
-const double CommunicationUnit::getTargetRegionCoordinates(void) const {
-    return targetRegionCoordinates;
+const float CommunicationUnit::getStormIntensityThreshold(void) const {
+    return stormIntensityThreshold;
 }
 
-void CommunicationUnit::setTargetRegionCoordinates(const double p_targetRegionCoordinates) {
-    targetRegionCoordinates = p_targetRegionCoordinates;
+void CommunicationUnit::setStormIntensityThreshold(const float p_stormIntensityThreshold) {
+    stormIntensityThreshold = p_stormIntensityThreshold;
+    NOTIFY_SET_OPERATION;
+}
+
+const int CommunicationUnit::getTargetRegionCoordinates(void) const {
+    return targetRegionCoordinates;
 }
 
 const float CommunicationUnit::getWaterPressureInference(void) const {
     return waterPressureInference;
+}
+
+const float CommunicationUnit::getWaterPressureThreshold(void) const {
+    return waterPressureThreshold;
+}
+
+void CommunicationUnit::setWaterPressureThreshold(const float p_waterPressureThreshold) {
+    waterPressureThreshold = p_waterPressureThreshold;
+    NOTIFY_SET_OPERATION;
 }
 
 const DataProcessingUnit* CommunicationUnit::getItsDataProcessingUnit(void) const {
@@ -238,6 +455,16 @@ void OMAnimatedCommunicationUnit::serializeAttributes(AOMSAttributes* aomsAttrib
     aomsAttributes->addAttribute("seismicInference", x2String(myReal->seismicInference));
     aomsAttributes->addAttribute("waterPressureInference", x2String(myReal->waterPressureInference));
     aomsAttributes->addAttribute("stormIntensityInference", x2String(myReal->stormIntensityInference));
+    aomsAttributes->addAttribute("currentRiskScore", x2String(myReal->currentRiskScore));
+    aomsAttributes->addAttribute("publicMessageLang", x2String(myReal->publicMessageLang));
+    aomsAttributes->addAttribute("publicMessage", x2String(myReal->publicMessage));
+    aomsAttributes->addAttribute("publicRisk", x2String(myReal->publicRisk));
+    aomsAttributes->addAttribute("waterPressureThreshold", x2String(myReal->waterPressureThreshold));
+    aomsAttributes->addAttribute("stormIntensityThreshold", x2String(myReal->stormIntensityThreshold));
+    aomsAttributes->addAttribute("seismicThreshold", x2String(myReal->seismicThreshold));
+    aomsAttributes->addAttribute("govMessage", x2String(myReal->govMessage));
+    aomsAttributes->addAttribute("riskThreshold", x2String(myReal->riskThreshold));
+    aomsAttributes->addAttribute("ledLight", x2String(myReal->ledLight));
 }
 
 void OMAnimatedCommunicationUnit::serializeRelations(AOMSRelations* aomsRelations) const {
@@ -250,6 +477,18 @@ void OMAnimatedCommunicationUnit::serializeRelations(AOMSRelations* aomsRelation
 //#]
 
 IMPLEMENT_META_P(CommunicationUnit, SensingSystemPKG, SensingSystemPKG, false, OMAnimatedCommunicationUnit)
+
+IMPLEMENT_META_OP(OMAnimatedCommunicationUnit, SensingSystemPKG_CommunicationUnit_setSeismicThreshold_float, "setSeismicThreshold", FALSE, "setSeismicThreshold(float)", 1)
+
+IMPLEMENT_OP_CALL(SensingSystemPKG_CommunicationUnit_setSeismicThreshold_float, CommunicationUnit, setSeismicThreshold(p_seismicThreshold), NO_OP())
+
+IMPLEMENT_META_OP(OMAnimatedCommunicationUnit, SensingSystemPKG_CommunicationUnit_setStormIntensityThreshold_float, "setStormIntensityThreshold", FALSE, "setStormIntensityThreshold(float)", 1)
+
+IMPLEMENT_OP_CALL(SensingSystemPKG_CommunicationUnit_setStormIntensityThreshold_float, CommunicationUnit, setStormIntensityThreshold(p_stormIntensityThreshold), NO_OP())
+
+IMPLEMENT_META_OP(OMAnimatedCommunicationUnit, SensingSystemPKG_CommunicationUnit_setWaterPressureThreshold_float, "setWaterPressureThreshold", FALSE, "setWaterPressureThreshold(float)", 1)
+
+IMPLEMENT_OP_CALL(SensingSystemPKG_CommunicationUnit_setWaterPressureThreshold_float, CommunicationUnit, setWaterPressureThreshold(p_waterPressureThreshold), NO_OP())
 #endif // _OMINSTRUMENT
 
 /*********************************************************************

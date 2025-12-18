@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: AerialSensor
-//!	Generated Date	: Wed, 17, Dec 2025  
+//!	Generated Date	: Thu, 18, Dec 2025  
 	File Path	: DefaultComponent\DefaultConfig\AerialSensor.cpp
 *********************************************************************/
 
@@ -523,7 +523,7 @@ void AerialSensor::state_9_entDef(void) {
     //#[ state DetectingAerial.state_9.windDirectionDetected.(Entry) 
     getWindDirection();
     //#]
-    state_9_timeout = scheduleTimeout(2500, "ROOT.DetectingAerial.state_9.windDirectionDetected");
+    state_9_timeout = scheduleTimeout(10000, "ROOT.DetectingAerial.state_9.windDirectionDetected");
     NOTIFY_TRANSITION_TERMINATED("5");
 }
 
@@ -565,7 +565,7 @@ IOxfReactive::TakeEventStatus AerialSensor::state_9_processEvent(void) {
                     //#[ state DetectingAerial.state_9.windDirectionDetected.(Entry) 
                     getWindDirection();
                     //#]
-                    state_9_timeout = scheduleTimeout(2500, "ROOT.DetectingAerial.state_9.windDirectionDetected");
+                    state_9_timeout = scheduleTimeout(10000, "ROOT.DetectingAerial.state_9.windDirectionDetected");
                     NOTIFY_TRANSITION_TERMINATED("13");
                     res = eventConsumed;
                 }
@@ -588,7 +588,7 @@ void AerialSensor::state_8_entDef(void) {
     //#[ state DetectingAerial.state_8.windSpeedDetected.(Entry) 
     getWindSpeed();
     //#]
-    state_8_timeout = scheduleTimeout(500, "ROOT.DetectingAerial.state_8.windSpeedDetected");
+    state_8_timeout = scheduleTimeout(8000, "ROOT.DetectingAerial.state_8.windSpeedDetected");
     NOTIFY_TRANSITION_TERMINATED("4");
 }
 
@@ -630,7 +630,7 @@ IOxfReactive::TakeEventStatus AerialSensor::state_8_processEvent(void) {
                     //#[ state DetectingAerial.state_8.windSpeedDetected.(Entry) 
                     getWindSpeed();
                     //#]
-                    state_8_timeout = scheduleTimeout(500, "ROOT.DetectingAerial.state_8.windSpeedDetected");
+                    state_8_timeout = scheduleTimeout(8000, "ROOT.DetectingAerial.state_8.windSpeedDetected");
                     NOTIFY_TRANSITION_TERMINATED("11");
                     res = eventConsumed;
                 }
@@ -653,7 +653,7 @@ void AerialSensor::state_7_entDef(void) {
     //#[ state DetectingAerial.state_7.stormPositionDetected.(Entry) 
     getStormPosition();
     //#]
-    state_7_timeout = scheduleTimeout(500, "ROOT.DetectingAerial.state_7.stormPositionDetected");
+    state_7_timeout = scheduleTimeout(5000, "ROOT.DetectingAerial.state_7.stormPositionDetected");
     NOTIFY_TRANSITION_TERMINATED("3");
 }
 
@@ -695,7 +695,7 @@ IOxfReactive::TakeEventStatus AerialSensor::state_7_processEvent(void) {
                     //#[ state DetectingAerial.state_7.stormPositionDetected.(Entry) 
                     getStormPosition();
                     //#]
-                    state_7_timeout = scheduleTimeout(500, "ROOT.DetectingAerial.state_7.stormPositionDetected");
+                    state_7_timeout = scheduleTimeout(5000, "ROOT.DetectingAerial.state_7.stormPositionDetected");
                     NOTIFY_TRANSITION_TERMINATED("9");
                     res = eventConsumed;
                 }
@@ -718,7 +718,7 @@ void AerialSensor::state_6_entDef(void) {
     //#[ state DetectingAerial.state_6.PrecipitationDetected.(Entry) 
     getPrecipitationAmount();
     //#]
-    state_6_timeout = scheduleTimeout(500, "ROOT.DetectingAerial.state_6.PrecipitationDetected");
+    state_6_timeout = scheduleTimeout(7000, "ROOT.DetectingAerial.state_6.PrecipitationDetected");
     NOTIFY_TRANSITION_TERMINATED("2");
 }
 
@@ -760,7 +760,7 @@ IOxfReactive::TakeEventStatus AerialSensor::state_6_processEvent(void) {
                     //#[ state DetectingAerial.state_6.PrecipitationDetected.(Entry) 
                     getPrecipitationAmount();
                     //#]
-                    state_6_timeout = scheduleTimeout(500, "ROOT.DetectingAerial.state_6.PrecipitationDetected");
+                    state_6_timeout = scheduleTimeout(7000, "ROOT.DetectingAerial.state_6.PrecipitationDetected");
                     NOTIFY_TRANSITION_TERMINATED("7");
                     res = eventConsumed;
                 }
