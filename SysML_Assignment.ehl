@@ -1,6 +1,5 @@
 [Op Calls]
 [Events]
-itsUnderWaterSensor->GEN(evIdle())`SensingSystemPKG::UnderWaterSensor
-itsUnderWaterSensor->GEN(evDetectUnderWater())`SensingSystemPKG::UnderWaterSensor
-itsAerialSensor->GEN(evDetectParameters())`SensingSystemPKG::AerialSensor
+itsSMSTWDMain->GEN(evSwitchOff())`SMSTWDMain
+itsSMSTWDMain->GEN(evSwitchOn())`SMSTWDMain
 [Breakpoints]

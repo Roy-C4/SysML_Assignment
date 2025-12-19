@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: CommunicationUnit
-//!	Generated Date	: Thu, 18, Dec 2025  
+//!	Generated Date	: Fri, 19, Dec 2025  
 	File Path	: DefaultComponent\DefaultConfig\CommunicationUnit.cpp
 *********************************************************************/
 
@@ -183,23 +183,28 @@ void CommunicationUnit::Operation_13(void) {
 void CommunicationUnit::communicateGov(void) {
     NOTIFY_OPERATION(communicateGov, communicateGov(), 0, SensingSystemPKG_CommunicationUnit_communicateGov_SERIALIZE);
     //#[ operation communicateGov()
+    char* govMessage = "";
     
-    
-    if (this->stormIntensityInference >= this->stormIntensityThreshold || this->waterPressureInference >= this->waterPressureThreshold || this->seismicInference >= this->seismicThreshold){
-    	this->govMessage = "Shits going down!";
+    if (this->stormIntensityInference >= this->stormIntensityThreshold && this->waterPressureInference >= this->waterPressureThreshold && this->seismicInference >= this->seismicThreshold){
+    	govMessage = "Instruct your citizens to pray";
+    } else if (this->stormIntensityInference >= this->stormIntensityThreshold) {
+    	govMessage = "Possible storm detected, enact emergency protocol 1.";
+    } else if (this->waterPressureInference >= this->waterPressureThreshold || this->seismicInference >= this->seismicThreshold) {
+    	govMessage = "Possible tsunami detected, enact emergency protocol 2.";
     }
-    else{
-    	this->govMessage = "Everything is FiNe!";
+    else {
+    	govMessage = "Everything is FiNe!";
     
     } 
     
     if (this->currentRiskScore>= this->riskThreshold){
     	this->ledLight = true;
-    
     }
     else{
     	this->ledLight = false;
     }
+    
+    this->govMessage = govMessage;
     //#]
 }
 
@@ -215,19 +220,22 @@ void CommunicationUnit::communicatePublic(void) {
     NOTIFY_OPERATION(communicatePublic, communicatePublic(), 0, SensingSystemPKG_CommunicationUnit_communicatePublic_SERIALIZE);
     //#[ operation communicatePublic()
     char* lang[2] = {"English", "Romanian"};
+    char* publicMessage = "";
+    float publicRisk = 0.0;
+    char* publicMessageLang = "";
     
-    char* message = "RUN BITCH!";
-    
-    if (this->stormIntensityInference >= this->stormIntensityThreshold || this->waterPressureInference >= this->waterPressureThreshold || this->seismicInference >= this->seismicThreshold){
-    	this->publicMessage = message;
-    	this->publicRisk = this->currentRiskScore;
-    	this->publicMessageLang= lang[this->targetRegionCoordinates];
+    if (this->stormIntensityInference >= this->stormIntensityThreshold && this->waterPressureInference >= this->waterPressureThreshold && this->seismicInference >= this->seismicThreshold) {
+    	publicMessage = "Pray.";
+    } else if (this->stormIntensityInference >= this->stormIntensityThreshold) {
+    	publicMessage = "Possible storm detected, please remain indoors.";
+    } else if (this->seismicInference >= this->seismicThreshold || this->waterPressureInference >= this->waterPressureThreshold) {
+    	publicMessage = "Possible tsunami detected, please evacuate.";
     }
-    else{
-    	this->publicMessage = "";
-    	this->publicRisk = 0.0;
-    	this->publicMessageLang = "";
-    } 
+    
+    this->publicMessage = publicMessage;
+    this->publicRisk = this->currentRiskScore;
+    this->publicMessageLang= lang[this->targetRegionCoordinates];
+    
     
     
     //#]
