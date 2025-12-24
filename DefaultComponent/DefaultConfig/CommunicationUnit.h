@@ -4,7 +4,7 @@
 	Component	: DefaultComponent 
 	Configuration 	: DefaultConfig
 	Model Element	: CommunicationUnit
-//!	Generated Date	: Thu, 18, Dec 2025  
+//!	Generated Date	: Wed, 24, Dec 2025  
 	File Path	: DefaultComponent\DefaultConfig\CommunicationUnit.h
 *********************************************************************/
 
@@ -222,10 +222,10 @@ public :
     void setPublicRisk(const float p_publicRisk);
     
     //## auto_generated
-    const int getRiskThreshold(void) const;
+    const float getRiskThreshold(void) const;
     
     //## auto_generated
-    void setRiskThreshold(const int p_riskThreshold);
+    void setRiskThreshold(const float p_riskThreshold);
     
     //## auto_generated
     const float getSeismicInference(void) const;
@@ -289,7 +289,7 @@ private :
     
     float publicRisk;		//## attribute publicRisk
     
-    int riskThreshold;		//## attribute riskThreshold
+    float riskThreshold;		//## attribute riskThreshold
     
     float seismicInference;		//## attribute seismicInference
     

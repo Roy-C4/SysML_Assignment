@@ -20,32 +20,32 @@
 						<_placement type="p">
 							<CCommon_WINDOWPLACEMENT type="e">
 								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">2</m_nFlags>
-								<m_showCmd type="a">3</m_showCmd>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
 								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
 								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
-								<m_nLeft type="a">64</m_nLeft>
-								<m_nTop type="a">64</m_nTop>
-								<m_nRight type="a">1577</m_nRight>
-								<m_nBottom type="a">671</m_nBottom>
+								<m_ptMaxPositionX type="a">-9</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-38</m_ptMaxPositionY>
+								<m_nLeft type="a">160</m_nLeft>
+								<m_nTop type="a">160</m_nTop>
+								<m_nRight type="a">1228</m_nRight>
+								<m_nBottom type="a">638</m_nBottom>
 							</CCommon_WINDOWPLACEMENT>
 						</_placement>
 						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
 						<_theDiagram type="r">
 							<IHandle type="e">
 								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\SysML_Assignment_rpy\FunctionalPKG.sbsx</_hfilename>
-								<_hsubsystem type="a">Architecture::AnalysisPKG::RequirementsPKG::FunctionalPKG</_hsubsystem>
-								<_hname type="a">requirements diagram_FR</_hname>
-								<_hid type="a">GUID b5c8750c-8daf-426a-b6de-3a411a6d023e</_hid>
+								<_hfilename type="a">.\SysML_Assignment_rpy\NonFunctionalPKG.sbsx</_hfilename>
+								<_hsubsystem type="a">Architecture::AnalysisPKG::RequirementsPKG::NonFunctionalPKG</_hsubsystem>
+								<_hname type="a">requirements diagram_NFR</_hname>
+								<_hid type="a">GUID 7755c5ad-7ca6-4bb3-ba75-4d7611743076</_hid>
 							</IHandle>
 						</_theDiagram>
-						<_UpLeft type="a">0 120 </_UpLeft>
-						<_DownRight type="a">911 513 </_DownRight>
-						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
-						<m_bIsActiveView type="a">1</m_bIsActiveView>
+						<_UpLeft type="a">0 0 </_UpLeft>
+						<_DownRight type="a">1025 406 </_DownRight>
+						<m_nDiagramIndex type="a">2</m_nDiagramIndex>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
 					<CGEMdiDiagramParams type="e">
@@ -56,8 +56,8 @@
 								<m_showCmd type="a">1</m_showCmd>
 								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
 								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_ptMaxPositionX type="a">-9</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-38</m_ptMaxPositionY>
 								<m_nLeft type="a">52</m_nLeft>
 								<m_nTop type="a">52</m_nTop>
 								<m_nRight type="a">1210</m_nRight>
@@ -75,8 +75,8 @@
 							</IHandle>
 						</_theDiagram>
 						<_UpLeft type="a">0 6 </_UpLeft>
-						<_DownRight type="a">1044 356 </_DownRight>
-						<m_nDiagramIndex type="a">9</m_nDiagramIndex>
+						<_DownRight type="a">1072 356 </_DownRight>
+						<m_nDiagramIndex type="a">1</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
@@ -84,45 +84,12 @@
 						<_placement type="p">
 							<CCommon_WINDOWPLACEMENT type="e">
 								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
+								<m_nFlags type="a">2</m_nFlags>
+								<m_showCmd type="a">3</m_showCmd>
 								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
 								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
-								<m_nLeft type="a">192</m_nLeft>
-								<m_nTop type="a">192</m_nTop>
-								<m_nRight type="a">1705</m_nRight>
-								<m_nBottom type="a">798</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IStateChartDiagram</_hm2Class>
-								<_hfilename type="a">.\SysML_Assignment_rpy\SensingSystemPKG.sbsx</_hfilename>
-								<_hsubsystem type="a">SensingSystemPKG</_hsubsystem>
-								<_hclass type="a">AerialSensor</_hclass>
-								<_hname type="a">StatechartDiagram</_hname>
-								<_hid type="a">GUID b57cf4a7-6f5a-4d39-b148-ada21fd8164c</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">1519 562 </_DownRight>
-						<m_nDiagramIndex type="a">5</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_ptMaxPositionX type="a">-9</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-38</m_ptMaxPositionY>
 								<m_nLeft type="a">224</m_nLeft>
 								<m_nTop type="a">224</m_nTop>
 								<m_nRight type="a">1737</m_nRight>
@@ -139,10 +106,10 @@
 								<_hid type="a">GUID 22c713c3-4473-47e0-a37e-ec5aee5f8397</_hid>
 							</IHandle>
 						</_theDiagram>
-						<_UpLeft type="a">171 0 </_UpLeft>
-						<_DownRight type="a">2513 867 </_DownRight>
-						<m_nDiagramIndex type="a">3</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
+						<_UpLeft type="a">1039 280 </_UpLeft>
+						<_DownRight type="a">2778 1188 </_DownRight>
+						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
+						<m_bIsActiveView type="a">1</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
 					<CGEMdiDiagramParams type="e">
@@ -153,8 +120,8 @@
 								<m_showCmd type="a">1</m_showCmd>
 								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
 								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_ptMaxPositionX type="a">-9</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-38</m_ptMaxPositionY>
 								<m_nLeft type="a">224</m_nLeft>
 								<m_nTop type="a">224</m_nTop>
 								<m_nRight type="a">1737</m_nRight>
@@ -171,9 +138,9 @@
 								<_hid type="a">GUID ef6f0e9e-dedc-4763-8ea4-1fed0d083e8f</_hid>
 							</IHandle>
 						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">3004 1111 </_DownRight>
-						<m_nDiagramIndex type="a">7</m_nDiagramIndex>
+						<_UpLeft type="a">851 329 </_UpLeft>
+						<_DownRight type="a">1955 730 </_DownRight>
+						<m_nDiagramIndex type="a">5</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
@@ -185,8 +152,8 @@
 								<m_showCmd type="a">1</m_showCmd>
 								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
 								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_ptMaxPositionX type="a">-9</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-38</m_ptMaxPositionY>
 								<m_nLeft type="a">104</m_nLeft>
 								<m_nTop type="a">104</m_nTop>
 								<m_nRight type="a">1211</m_nRight>
@@ -204,75 +171,9 @@
 								<_hid type="a">GUID 301b3127-c3d8-4176-ac80-4e7b04e82d79</_hid>
 							</IHandle>
 						</_theDiagram>
-						<_UpLeft type="a">268 17 </_UpLeft>
-						<_DownRight type="a">1028 285 </_DownRight>
-						<m_nDiagramIndex type="a">6</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
-								<m_nLeft type="a">96</m_nLeft>
-								<m_nTop type="a">96</m_nTop>
-								<m_nRight type="a">1609</m_nRight>
-								<m_nBottom type="a">703</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IStateChartDiagram</_hm2Class>
-								<_hfilename type="a">.\SysML_Assignment_rpy\SensingSystemPKG.sbsx</_hfilename>
-								<_hsubsystem type="a">SensingSystemPKG</_hsubsystem>
-								<_hclass type="a">SMSTWDMain</_hclass>
-								<_hname type="a">StatechartDiagram</_hname>
-								<_hid type="a">GUID 97ce097e-4862-4caf-9078-d654a0484d50</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">1519 563 </_DownRight>
-						<m_nDiagramIndex type="a">1</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
-								<m_nLeft type="a">128</m_nLeft>
-								<m_nTop type="a">128</m_nTop>
-								<m_nRight type="a">1641</m_nRight>
-								<m_nBottom type="a">734</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IStateChartDiagram</_hm2Class>
-								<_hfilename type="a">.\SysML_Assignment_rpy\SensingSystemPKG.sbsx</_hfilename>
-								<_hsubsystem type="a">SensingSystemPKG</_hsubsystem>
-								<_hclass type="a">SatelliteSensor</_hclass>
-								<_hname type="a">StatechartDiagram</_hname>
-								<_hid type="a">GUID f1782079-2d4e-4991-b5bb-cba8031faa19</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">1519 562 </_DownRight>
-						<m_nDiagramIndex type="a">10</m_nDiagramIndex>
+						<_UpLeft type="a">88 68 </_UpLeft>
+						<_DownRight type="a">1046 397 </_DownRight>
+						<m_nDiagramIndex type="a">3</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
@@ -284,8 +185,8 @@
 								<m_showCmd type="a">1</m_showCmd>
 								<m_ptMinPositionX type="a">0</m_ptMinPositionX>
 								<m_ptMinPositionY type="a">829</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_ptMaxPositionX type="a">-9</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-38</m_ptMaxPositionY>
 								<m_nLeft type="a">128</m_nLeft>
 								<m_nTop type="a">128</m_nTop>
 								<m_nRight type="a">1276</m_nRight>
@@ -302,42 +203,9 @@
 								<_hid type="a">GUID f31ced8f-1065-4f05-90c5-0c41bf57fdbc</_hid>
 							</IHandle>
 						</_theDiagram>
-						<_UpLeft type="a">0 380 </_UpLeft>
-						<_DownRight type="a">1220 753 </_DownRight>
+						<_UpLeft type="a">0 240 </_UpLeft>
+						<_DownRight type="a">1128 575 </_DownRight>
 						<m_nDiagramIndex type="a">4</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
-								<m_nLeft type="a">128</m_nLeft>
-								<m_nTop type="a">128</m_nTop>
-								<m_nRight type="a">1641</m_nRight>
-								<m_nBottom type="a">735</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IStateChartDiagram</_hm2Class>
-								<_hfilename type="a">.\SysML_Assignment_rpy\SensingSystemPKG.sbsx</_hfilename>
-								<_hsubsystem type="a">SensingSystemPKG</_hsubsystem>
-								<_hclass type="a">UnderWaterSensor</_hclass>
-								<_hname type="a">StatechartDiagram</_hname>
-								<_hid type="a">GUID 6e11272a-aeac-4471-ada6-1abf43dd672e</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">1519 563 </_DownRight>
-						<m_nDiagramIndex type="a">8</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					

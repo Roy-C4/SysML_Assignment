@@ -12,10 +12,10 @@
 			<_id type="a">GUID d44fff9b-f71d-428a-8191-b6d7ad475ba4</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SensingSystemPKG</_name>
-			<_modifiedTimeWeak type="a">12.19.2025::13:8:6</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.19.2025::13:22:4</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.24.2025::13:3:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.24.2025::13:3:54</_modifiedTime>
 			<_lastID type="a">22</_lastID>
-			<weakCGTime type="a">12.19.2025::13:8:6</weakCGTime>
+			<weakCGTime type="a">12.24.2025::13:3:54</weakCGTime>
 			<strongCGTime type="a">12.17.2025::15:59:20</strongCGTime>
 			<_defaultComposite type="s">GUID e3a1be58-46cf-4114-9272-6ddd6f563dbb</_defaultComposite>
 			<_eventsBaseID type="a">19001</_eventsBaseID>
@@ -6026,8 +6026,8 @@
 			</_properties>
 			<_name type="a">GUI</_name>
 			<_modifiedTimeWeak type="a">12.18.2025::13:9:34</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.19.2025::12:50:47</_modifiedTime>
-			<_lastModifiedTime type="a">12.19.2025::12:50:47</_lastModifiedTime>
+			<_modifiedTime type="a">12.24.2025::12:35:39</_modifiedTime>
+			<_lastModifiedTime type="a">12.24.2025::12:35:39</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -9404,7 +9404,7 @@
 			<m_pParent type="s">GUID 59cb611d-2bfc-4e8e-9f49-84b70d774fe1</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">OO Im in Danger!</m_str>
+					<m_str type="a">RIsk Imminent</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -9426,7 +9426,7 @@
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 			<m_csModelObjPath type="a">SensingSystemPKG.itsSMSTWDMain.itsCommunicationUnit.ledLight</m_csModelObjPath>
-			<m_csName type="a">OO Im in Danger!</m_csName>
+			<m_csName type="a">RIsk Imminent</m_csName>
 			<m_PartsArray type="c">
 				<IRPYRawContainer type="e">
 					
@@ -9964,16 +9964,16 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">12.18.2025::15:12:58</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">12.24.2025::12:58:1</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID f31ced8f-1065-4f05-90c5-0c41bf57fdbc</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">12.18.2025::15:12:58</_modifiedTime>
+			<_modifiedTime type="a">12.24.2025::12:58:1</_modifiedTime>
 			<_lastID type="a">17</_lastID>
-			<weakCGTime type="a">12.18.2025::15:12:58</weakCGTime>
+			<weakCGTime type="a">12.24.2025::12:58:1</weakCGTime>
 			<strongCGTime type="a">12.18.2025::9:19:1</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -10251,8 +10251,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">12.17.2025::15:59:20</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2025::11:19:7</_modifiedTime>
-			<_lastModifiedTime type="a">12.18.2025::11:19:7</_lastModifiedTime>
+			<_modifiedTime type="a">12.24.2025::12:58:13</_modifiedTime>
+			<_lastModifiedTime type="a">12.24.2025::12:58:13</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -10399,7 +10399,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">5.18982 0 0 4.12121 20 20 </m_transform>
+			<m_transform type="a">5.40741 0 0 4.82576 20 20 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -10677,7 +10677,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">526440</m_drawBehavior>
-			<m_transform type="a">0.474976 0 0 0.428699 627.05 -68.042 </m_transform>
+			<m_transform type="a">0.519357 0 0 0.511587 626.961 -95.3121 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -10695,10 +10695,11 @@
 					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_AdditionalLabel>
+			<m_bFramesetModified type="a">1</m_bFramesetModified>
 			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<frameset type="a">&lt;frameset rows=50%25,50%25&gt;
+			<frameset type="a">&lt;frameset rows=66%25,34%25&gt;
 &lt;frame name=AttributeListCompartment&gt;
 &lt;frame name=OperationListCompartment&gt;</frameset>
 			<Attrs type="c">
@@ -10948,7 +10949,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">8</m_drawBehavior>
-			<m_transform type="a">-2.16679e-06 -2.33264 2.10537 -2.40069e-06 -80.004 1003.04 </m_transform>
+			<m_transform type="a">-1.98163e-06 -1.9547 1.92546 -2.01173e-06 -72.9964 991.059 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -11063,7 +11064,7 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 575 261  575 330  </m_arrow>
+			<m_arrow type="a">2 575 261  575 380  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -11818,10 +11819,10 @@
 			<_id type="a">GUID 5d596f82-f1d7-47a1-bdbe-3c6c1d81cce5</_id>
 			<_myState type="a">10240</_myState>
 			<_name type="a">statechart_15</_name>
-			<_modifiedTimeWeak type="a">12.18.2025::9:19:1</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.16.2025::15:39:34</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.22.2025::13:38:29</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.22.2025::13:38:32</_modifiedTime>
 			<_lastID type="a">4</_lastID>
-			<weakCGTime type="a">12.18.2025::9:19:1</weakCGTime>
+			<weakCGTime type="a">12.22.2025::13:38:29</weakCGTime>
 			<strongCGTime type="a">12.18.2025::9:19:1</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -11829,7 +11830,7 @@
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_defNumber type="a">2</_defNumber>
-			<_version type="a">12.16.2025::16:39:34</_version>
+			<_version type="a">12.22.2025::14:38:32</_version>
 			<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 			<_diagram type="s">GUID 97ce097e-4862-4caf-9078-d654a0484d50</_diagram>
 			<AggregatesList type="e">
@@ -12232,9 +12233,9 @@ itsUnderWaterSensor-&gt;GEN(evIdle());</_body>
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">statechartdiagram_0</_name>
-			<_modifiedTimeWeak type="a">12.16.2025::15:39:33</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.16.2025::13:26:23</_modifiedTime>
-			<_lastModifiedTime type="a">12.16.2025::15:39:33</_lastModifiedTime>
+			<_modifiedTimeWeak type="a">12.22.2025::13:38:29</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.22.2025::13:38:32</_modifiedTime>
+			<_lastModifiedTime type="a">12.22.2025::13:38:32</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -12378,7 +12379,7 @@ itsUnderWaterSensor-&gt;GEN(evIdle());</_body>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">3.10648 0 0 3.63636 20 20 </m_transform>
+			<m_transform type="a">4.375 0 0 3.63636 20 20 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -12565,7 +12566,7 @@ itsUnderWaterSensor-&gt;GEN(evIdle());</_body>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.103102 0 0 0.0792453 568 218 </m_transform>
+			<m_transform type="a">0.291058 0 0 0.156604 636 208 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -12730,7 +12731,7 @@ itsUnderWaterSensor-&gt;GEN(evDetectParameters());</m_str>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">1</m_line_style>
 			<m_SourcePort type="a">1096 265 </m_SourcePort>
-			<m_TargetPort type="a">0 454 </m_TargetPort>
+			<m_TargetPort type="a">0 453 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -12796,7 +12797,7 @@ itsUnderWaterSensor-&gt;GEN(evIdle());</m_str>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">1</m_line_style>
-			<m_SourcePort type="a">0 593 </m_SourcePort>
+			<m_SourcePort type="a">0 594 </m_SourcePort>
 			<m_TargetPort type="a">1096 858 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
@@ -22256,16 +22257,16 @@ itsSMSTWDMain-&gt;GEN(evNewSatelliteData());</_bodyData>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">12.19.2025::13:1:56</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">12.24.2025::13:9:47</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hid type="a">GUID f31ced8f-1065-4f05-90c5-0c41bf57fdbc</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">12.19.2025::13:1:56</_modifiedTime>
+			<_modifiedTime type="a">12.24.2025::13:9:47</_modifiedTime>
 			<_lastID type="a">23</_lastID>
-			<weakCGTime type="a">12.19.2025::13:1:56</weakCGTime>
+			<weakCGTime type="a">12.24.2025::13:9:47</weakCGTime>
 			<strongCGTime type="a">12.17.2025::15:59:20</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -22364,8 +22365,8 @@ this-&gt;communicateGov();</_bodyData>
 			<_id type="a">GUID 954e1bbf-09e1-4174-8d71-cf60bd49a862</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">communicatePublic</_name>
-			<_modifiedTimeWeak type="a">12.19.2025::13:1:1</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.19.2025::13:1:1</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.24.2025::12:50:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.24.2025::12:50:55</_modifiedTime>
 			<_virtual type="a">1</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -22400,11 +22401,15 @@ if (this-&gt;stormIntensityInference &gt;= this-&gt;stormIntensityThreshold &amp
 }%0D
 %0D
 this-&gt;publicMessage = publicMessage;%0D
-this-&gt;publicRisk = this-&gt;currentRiskScore;%0D
-this-&gt;publicMessageLang= lang[this-&gt;targetRegionCoordinates];%0D
 %0D
-%0D
-</_bodyData>
+if (publicMessage[0] != '\0') {%0D
+    this-&gt;publicRisk = this-&gt;currentRiskScore;%0D
+    this-&gt;publicMessageLang = lang[this-&gt;targetRegionCoordinates];%0D
+} %0D
+else {%0D
+    this-&gt;publicRisk = 0.0; %0D
+    this-&gt;publicMessageLang = &quot;&quot;; %0D
+}</_bodyData>
 			</IBody>
 			</_itsBody>
 		</IPrimitiveOperation>
@@ -22412,8 +22417,8 @@ this-&gt;publicMessageLang= lang[this-&gt;targetRegionCoordinates];%0D
 			<_id type="a">GUID ff1f81df-996c-417d-871c-2c2a2939fb35</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">communicateGov</_name>
-			<_modifiedTimeWeak type="a">12.19.2025::13:1:56</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.19.2025::13:1:56</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.24.2025::13:9:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.24.2025::13:9:47</_modifiedTime>
 			<_virtual type="a">1</_virtual>
 			<Args type="c">
 				<IRPYRawContainer type="e">
@@ -22434,7 +22439,7 @@ this-&gt;publicMessageLang= lang[this-&gt;targetRegionCoordinates];%0D
 			<_static type="a">0</_static>
 			<_constant type="a">0</_constant>
 			<_itsBody type="p"><IBody type="e">
-				<_bodyData type="a">char* govMessage = &quot;&quot;;%0D
+				<_bodyData type="a">/*char* govMessage = &quot;&quot;;%0D
 %0D
 if (this-&gt;stormIntensityInference &gt;= this-&gt;stormIntensityThreshold &amp;&amp; this-&gt;waterPressureInference &gt;= this-&gt;waterPressureThreshold &amp;&amp; this-&gt;seismicInference &gt;= this-&gt;seismicThreshold){%0D
 	govMessage = &quot;Instruct your citizens to pray.&quot;;%0D
@@ -22455,7 +22460,38 @@ else{%0D
 	this-&gt;ledLight = false;%0D
 }%0D
 %0D
-this-&gt;govMessage = govMessage;</_bodyData>
+this-&gt;govMessage = govMessage;*/%0D
+%0D
+%0D
+%0D
+%0D
+%0D
+char* govMessage = &quot;&quot;;%0D
+%0D
+if (this-&gt;stormIntensityInference &gt;= this-&gt;stormIntensityThreshold &amp;&amp; %0D
+    this-&gt;waterPressureInference &gt;= this-&gt;waterPressureThreshold &amp;&amp; %0D
+    this-&gt;seismicInference &gt;= this-&gt;seismicThreshold) {%0D
+    %0D
+    govMessage = &quot;Instruct your citizens to pray.&quot;;%0D
+    this-&gt;ledLight = true;  %0D
+} %0D
+else if (this-&gt;stormIntensityInference &gt;= this-&gt;stormIntensityThreshold) {%0D
+    govMessage = &quot;Possible storm detected, enact emergency protocol 1.&quot;;%0D
+    this-&gt;ledLight = true;  %0D
+} %0D
+else if (this-&gt;waterPressureInference &gt;= this-&gt;waterPressureThreshold || %0D
+         this-&gt;seismicInference &gt;= this-&gt;seismicThreshold) {%0D
+    govMessage = &quot;Possible tsunami detected, enact emergency protocol 2.&quot;;%0D
+    this-&gt;ledLight = true;  %0D
+}%0D
+else {%0D
+    govMessage = &quot;Everything is FiNe!&quot;;%0D
+    this-&gt;ledLight = false; %0D
+} %0D
+%0D
+this-&gt;govMessage = govMessage;%0D
+%0D
+</_bodyData>
 			</IBody>
 			</_itsBody>
 		</IPrimitiveOperation>
@@ -22958,14 +22994,14 @@ this-&gt;govMessage = govMessage;</_bodyData>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">12.18.2025::14:6:21</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2025::14:6:21</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.24.2025::13:7:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.24.2025::13:7:51</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
 					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
-					<_hname type="a">int</_hname>
-					<_hid type="a">GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4</_hid>
+					<_hname type="a">float</_hname>
+					<_hid type="a">GUID 49a1890b-9064-409b-bd56-859d88083577</_hid>
 				</IHandle>
 			</_typeOf>
 			<_isOrdered type="a">0</_isOrdered>
@@ -22974,14 +23010,14 @@ this-&gt;govMessage = govMessage;</_bodyData>
 			<_isReferenceAttr type="a">0</_isReferenceAttr>
 			<_isConstant type="a">0</_isConstant>
 			<AggregatesList type="e">
-				<value>GUID 60b1ee66-a9cf-4fb7-be30-e605132ef637</value>
+				<value>GUID f3d52dd5-f6ec-44f9-b9ad-1c6f1ff64480</value>
 			</AggregatesList>
 		</IAttribute>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID 60b1ee66-a9cf-4fb7-be30-e605132ef637</_id>
-			<_modifiedTimeWeak type="a">12.18.2025::14:6:21</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2025::14:6:21</_modifiedTime>
-			<_value type="a">0.52</_value>
+			<_id type="a">GUID f3d52dd5-f6ec-44f9-b9ad-1c6f1ff64480</_id>
+			<_modifiedTimeWeak type="a">12.24.2025::13:7:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.24.2025::13:7:51</_modifiedTime>
+			<_value type="a">0.517</_value>
 		</ILiteralSpecification>
 		<IAttribute type="e">
 			<_id type="a">GUID a249ca41-68d7-4e03-bece-b94cd9833cd8</_id>
@@ -23000,8 +23036,8 @@ this-&gt;govMessage = govMessage;</_bodyData>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">12.18.2025::14:7:10</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.18.2025::14:7:10</_modifiedTime>
+			<_modifiedTimeWeak type="a">12.24.2025::13:0:59</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.24.2025::13:0:59</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -23015,7 +23051,16 @@ this-&gt;govMessage = govMessage;</_bodyData>
 			<_static type="a">0</_static>
 			<_isReferenceAttr type="a">0</_isReferenceAttr>
 			<_isConstant type="a">0</_isConstant>
+			<AggregatesList type="e">
+				<value>GUID ff68d2fc-e853-42b2-a9e0-b83b0b12bc76</value>
+			</AggregatesList>
 		</IAttribute>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID ff68d2fc-e853-42b2-a9e0-b83b0b12bc76</_id>
+			<_modifiedTimeWeak type="a">12.24.2025::13:0:59</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.24.2025::13:0:59</_modifiedTime>
+			<_value type="a">false</_value>
+		</ILiteralSpecification>
 		<IAssociationEnd type="e">
 			<_id type="a">GUID ccca7a10-5755-4a48-9178-78da65a3459c</_id>
 			<_myState type="a">10240</_myState>
