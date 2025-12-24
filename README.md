@@ -49,7 +49,7 @@ The project includes a dashboard for system validation and real-time monitoring.
 | **Nominal State** | **Hazard Detection** |
 |:---:|:---:|
 | *System operating normally. "Everything is Fine" message broadcasted.* | *Tsunami alert triggered by dual-sensor validation (Seismic + Pressure).* |
-| ![GUI Fine](path/to/GUI_fine.jpg) | ![GUI Tsunami](path/to/GUI_Tsunami.jpg) |
+| ![GUI Fine](images/GUI_fine.jpg) | ![GUI Tsunami](images/GUI_Tsunami.jpg) |
 
 *The GUI visualizes real-time sensor inferences, diagnostic heartbeats (LEDs), and the specific multilingual messages sent to the public.*
 
